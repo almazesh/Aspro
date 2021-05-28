@@ -1,4 +1,4 @@
-import {Route , Switch , Link  ,Redirect} from 'react-router-dom'
+import {Route , Switch  } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 function App() {
   return (
