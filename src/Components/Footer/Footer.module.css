@@ -1,0 +1,253 @@
+footer{
+    background: #2a2a2a;
+    margin-top: 150px;
+}
+
+.footer_banner{
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.footer_inline{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer_inline ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer_inline ul p{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.footer_inline ul li a{
+    color: gainsboro;
+}
+
+.footer_contacts li{
+    margin-bottom: 45px !important;
+}
+
+
+.footer_input_inline{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer_input_inline div{
+    margin: 0 10px;
+}
+
+.footer_input_inline input{
+    background: none;
+    border: 0;
+    border-bottom: 2px solid gray;
+    width: 300px;
+    font-size: 17px;
+    padding: 15px 0;
+    color: white;
+    outline:0;
+    cursor: pointer;
+}
+
+.footer_input_inline button{
+    background: none;
+    outline: 0;
+    cursor: pointer;
+    border:0;
+    color: white;
+    border-bottom: 2px solid gray;
+    font-size: 17px;
+    padding: 5px 0;
+    transform: translateY(10px);
+}
+
+
+.inline_social{
+    padding-top: 80px;
+}
+
+.inline_social i{
+    color: white;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.footer_last{
+    width: 85%;
+    margin: auto;
+}
+
+.footer_last_inline{
+    display: inline-flex;
+    padding: 10px 0;
+    justify-content: space-around;
+    width: 1300px;
+}
+
+.footer_last_inline li{
+    color: gainsboro;
+}
+.footer_last_inline li a{
+    color: gainsboro;
+}
+
+hr{
+    border-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media */
+
+@media (max-width:1380px){
+    .footer_last_inline{
+        display: inline-flex;
+        padding: 10px 0;
+        justify-content: space-around;
+        width: 1200px;
+    }
+
+    .footer_banner{
+        width: 95%;
+        margin: auto;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:1296px){
+    .footer_last_inline{
+        display: inline-flex;
+        padding: 10px 0;
+        justify-content: space-around;
+        width: 1100px;
+    }
+}
+
+@media (max-width:1194px){
+    .footer_last{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width:1161px){
+    .footer_last{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media (max-width:1137px){
+    .footer_inline{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .footer_last_inline{
+        display: inline-flex;
+        padding: 10px 0;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .footer_last_inline li{
+        width: 50% !important;
+    }
+}
+
+@media (max-width:471px){
+    .footer_input_inline input{
+        background: none;
+        border: 0;
+        border-bottom: 2px solid gray;
+        width: 250px;
+        font-size: 17px;
+        padding: 15px 0;
+        outline:0;
+        cursor: pointer;
+    }
+    .footer_inline ul{
+        width: 100%;
+    }
+    .footer_input_inline button{
+        background: none;
+        outline: 0;
+        cursor: pointer;
+        border:0;
+        color: white;
+        border-bottom: 2px solid gray;
+        font-size: 17px;
+        padding: 5px 0;
+        transform: translateY(10px);
+    }
+    .footer_banner{
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    
+}
+
+@media (max-width:320px){
+    .footer_last_inline{
+        width: 100% !important;
+    }
+}
+
+
+
+@media (max-width:408px){
+    .footer_input_inline input{
+        background: none;
+        border: 0;
+        border-bottom: 2px solid gray;
+        width: 200px;
+        font-size: 17px;
+        padding: 15px 0;
+        outline:0;
+        cursor: pointer;
+    }
+
+    .footer_inline ul{
+        padding-left: 0;
+    }
+    .footer_banner{
+        width: 90%;
+        margin: auto;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:330px){
+    .footer_input_inline input{
+        background: none;
+        border: 0;
+        border-bottom: 2px solid gray;
+        width: 180px;
+        font-size: 17px;
+        padding: 15px 0;
+        outline:0;
+        cursor: pointer;
+    }
+
+}

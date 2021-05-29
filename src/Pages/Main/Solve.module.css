@@ -1,0 +1,164 @@
+.solve_banner{
+    width: 92%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.solve_inline{
+    display: flex;
+    align-items: flex-start;
+}
+
+.solve_left_block{
+    width: 47%;
+}
+
+.solve_left_block h1{
+    font-size: 50px;
+}
+
+.solve_left_block span{
+    color: gray;
+    border-bottom: 2px solid gray;
+    
+
+
+}
+
+.solve_left_watch{
+    margin: 50px 0;
+}
+
+.solve_left_block p{
+    font-size: 26px;
+}
+
+.solve_card img{
+    width: 420px;
+    height:300px;
+}
+
+.solve_card{
+    margin: 0 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+
+/* Right */
+
+.solve_right_block{
+    transform: translateY(50px);
+}
+
+.solve_right_block_inline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+
+
+
+/* MEdaia */
+
+
+
+@media (max-width:2086px){
+    .solve_card img{
+        width: 390px;
+        height:300px;
+    }
+    
+}
+
+@media (max-width:1954px){
+    .solve_card img{
+        width: 350px;
+        height:300px;
+    }
+    
+}
+
+@media (max-width:1768px){
+    .solve_card img{
+        width: 330px;
+        height:300px;
+    }
+}
+
+@media (max-width:1678px){
+    .solve_card img{
+        width: 300px;
+        height:300px;
+    }
+}
+
+@media (max-width:1542px){
+    .solve_card img{
+        width: 280px;
+        height:300px;
+    }
+}
+
+@media (max-width:1450px){
+    .solve_card img{
+        width: 270px;
+        height:300px;
+    }
+    .solve_banner{
+        width: 95%;
+        margin: auto;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width:1366px){
+    .solve_card img{
+        width: 250px;
+        height:300px;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width:684px){
+    .solve_inline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .solve_right_block_inline{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .solve_left_block{
+        width: 90%;
+    }
+    
+    .solve_left_block h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:608px){
+    .solve_card img{
+        width: 90%;
+        height:300px;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width:360px){
+
+.solve_left_block h1{
+    font-size: 40px;
+}
+}

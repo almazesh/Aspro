@@ -2,7 +2,6 @@
 
 body{
     margin: 0;
-    background-color: black;
     font-family: 'RF Tone';
 }
 a{
@@ -65,4 +64,65 @@ ul{
 
 .navbar_right_icons li a img{
     width: 28px;
+}
+
+
+
+
+
+
+
+
+
+/* Media */
+
+
+@media screen and (max-width:1434px){
+    .navbar_list{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:846px){
+    .navbar_logo li img{
+        width: 200px;
+    }
+
+    .navbar_logo_item{
+        width: 300px;
+        font-size: 18px;
+        transform: translateY(0px);
+    }
+}
+
+
+@media screen and (max-width:714px){
+    .navbar_logo_item
+    {
+        display: none ;
+    }
+
+    .navbar_logo{
+        display: flex;
+        justify-content: space-around;
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width:417px){
+    .navbar_logo li img{
+        width: 150px;
+    }
+    .navbar_logo{
+        display: flex;
+        justify-content: space-around;
+        width: 100px;
+    }
+    .navbar_right_icons li a img{
+        width: 25px;
+    }
+    
+    
 }

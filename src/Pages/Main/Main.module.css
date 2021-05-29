@@ -1,0 +1,108 @@
+.slider_parent{
+    position: relative;
+    height: 100vh;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+ 
+
+
+  .slider_picture1{
+      background: url('https://wallpapercave.com/wp/wp6181121.jpg') center / cover;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+  }
+
+  .slider_picture2{
+      background: url('https://images8.alphacoders.com/595/thumb-1920-595107.jpg') center / cover;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+
+  .slider_picture3{
+    background: url('https://lh3.googleusercontent.com/proxy/Wlfusm1YDzgcVSMEbQ3PFQCVRoigKWapAtEtjj5glIPSJj8CpzrhcHhzH8m1HwVbvwC58UD0Q7oQRrv8vAyQydrWjOBVXZ9_y0t5-jDx8FTtQpEZY9CGDTstakEB7gHHgi8BAOXjycnkLBxCC3m6aTCYFcTy') center / cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.slider_title{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    width: 900px;
+}
+
+
+
+
+
+
+
+
+
+/* Media */
+
+@media screen and (max-width:1021px){
+    .slider_title{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        width: 900px;
+    }
+}
+
+@media screen and (max-width:853px){
+    .slider_title{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:609px){
+    .slider_title{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }  
+}

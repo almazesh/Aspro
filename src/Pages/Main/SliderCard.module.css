@@ -1,0 +1,107 @@
+.slider_parent{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+ .card img{
+     width: 400px;
+     height: 420px;
+     object-fit: cover;
+ }
+ .card{
+     text-align: center;
+ }
+
+
+ @media (max-width:1866px){
+    .card img{
+        width: 350px;
+        height: 420px;
+        object-fit: cover;
+    }
+ }
+
+ @media (max-width:1656px){
+    .card img{
+        width: 320px;
+        height: 420px;
+        object-fit: cover;
+    }
+ }
+
+ @media (max-width:1518px){
+    .card img{
+        width: 300px;
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .slider_parent{
+        position: relative;
+        height: 100%;
+        width: 95%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+ }
+
+ @media (max-width:1428px){
+    .card img{
+        width: 280px;
+        height: 380px;
+        object-fit: cover;
+    }
+ }
+
+
+ @media (max-width:407px){
+     .swiper_next{
+         width: 10px;
+         
+     }
+
+     :root{
+        --swiper-navigation-size:20px
+     }
+ }
+
+ @media (max-width:347px){
+    .card img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .card{
+        transform: translateY(50px);
+    }
+ }

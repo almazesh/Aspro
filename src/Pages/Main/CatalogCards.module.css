@@ -1,0 +1,424 @@
+.catalog_parent{
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.catalog_inline
+{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.catalog_first_card div p{
+    color: gray;
+    font-size: 30px;
+    transform: translateY(-30px);
+}
+
+
+.catalog_first_card div{
+    width: 75%;
+}
+.catalog_first_card{
+    text-align: left !important;
+    width: 40%;
+}
+
+
+
+
+
+.catalog_right_block{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.catalog_right_block div{
+    width: 28%;
+}
+.catalog_right_block div p{
+    color: gray;
+    font-size: 23px;
+}
+
+.catalog_right_block div li{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+.catalog_inline div li{
+    list-style: none;
+}
+
+
+
+/* Catalog title */
+
+.catalog_title{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.catalog_title h4{
+    font-size: 40px;
+}
+
+.catalog_title_inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog_title_inline div{
+    width: 230px;
+}
+.catalog_title_inline p{
+    font-size: 45px;
+}
+
+.catalog_title_inline span{
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+
+/* Cards */
+
+
+.cards_parent{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.cards_inline{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cards_inline div{
+    margin: 20px 30px;
+}
+
+.card{
+    text-align: center;
+}
+.card img{
+    width: 300px;
+}
+
+
+.card p{
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Work banner */
+
+
+.work_banner{
+    background: #f2f2f2;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.work_padding{
+    padding: 50px 0;
+}
+
+.work_title{
+    text-align: center;
+    padding: 50px;
+}
+
+.work_title h2{
+    font-size: 45px;
+}
+
+.work_title p{
+    font-size: 25px;
+}
+.form_block_inline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+form div input{
+    background: none;
+    border:0;
+    border-bottom: 2px solid gray;
+    padding: 15px 0;
+    font-size: 25px;
+    outline: none;
+    margin: 10px 0;
+    width: 400px;
+}
+form div{
+    position: relative;
+}
+
+form div i{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.work_banner .form_button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.form_button button{
+    width: 400px;
+    padding: 15px 0; 
+    background: black;
+    color: white;
+    font-size: 23px;
+}
+
+
+
+
+.form_right_block div ul li {
+    font-size: 23px;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+}
+
+.form_right_block div ul li span{
+    margin: 0px 20px;
+}
+
+
+
+.form_block_center{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* Project */
+
+
+.project_banner{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.project_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project_title div{
+    width: 200px;
+}
+
+.project_title h2{
+    font-size: 45px;
+}
+
+.project_title p{
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+
+
+
+
+
+
+
+
+/* Media */
+
+
+
+
+
+@media screen and (max-width:1145px){
+        .catalog_inline
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .catalog_first_card{
+        text-align: center !important;
+        width: 100%;
+    }
+
+    .catalog_first_card div{
+        width: 100%;
+    }
+    
+    
+
+}
+
+@media (max-width:997px)
+{
+    .catalog_title_inline{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:877px){
+    .catalog_right_block{
+        display: flex;
+        justify-content: space-around;
+        height: 400px;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    
+    }
+
+    .catalog_right_block div{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:799px){
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+ /* Work bammer*/ 
+
+
+ 
+
+ @media screen and (max-width:806px){
+    .form_block_inline{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .work_title{
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .work_title h2{
+        font-size: 35px;
+    }
+    
+    .work_title p{
+        font-size: 20px;
+    }
+ }
+
+ @media (max-width:684px){
+    .project_title{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+ }
+
+
+ @media (max-width:438px){
+    form div input{
+        background: none;
+        border:0;
+        border-bottom: 2px solid gray;
+        padding: 15px 0;
+        font-size: 25px;
+        outline: none;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+
+
+    .form_block_center{
+        width: 100%;
+        margin: auto;
+    }
+
+    .form_button{
+        width: 90%;
+        margin: auto;
+    }
+    .form_button button{
+        width: 100%;
+        padding: 15px 0; 
+        background: black;
+        color: white;
+        font-size: 23px;
+    }    
+ }
+
+ @media (max-width:369px){
+    .form_right_block div ul li span{
+        margin: 0px 2px;
+    }
+    
+ }
+
+
+ @media (max-width:320px){
+    .work_title h2{
+        font-size: 25px;
+    }
+
+    .form_button button{
+        width: 100%;
+        padding: 15px 0; 
+        background: black;
+        color: white;
+        font-size: 18px;
+    }    
+
+    .form_right_block div ul li {
+        font-size: 18px;
+        width: 100%;
+        margin: 15px 0;
+        display: flex;
+    }
+
+ }
