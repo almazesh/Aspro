@@ -1,0 +1,326 @@
+@import url('../../assets/Fonts/stylesheet.css');
+
+.contact_title p{
+    font-size: 52px;
+}
+
+.contact_title{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contact_banner{
+    width: 90%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.contact_inline{
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact_left{
+    width: 60%;
+}
+
+.contact_left_inline{
+    display: flex;
+    align-items: flex-start;
+    width:780px;
+    justify-content: space-between;
+}
+
+.contact_left_inline p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.contact_left_inline2{
+    display: flex;
+    align-items: flex-start;
+    width:732px;
+    justify-content: space-between;
+}
+
+.contact_left_inline2 p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.contact_left_inline3{
+    display: flex;
+    align-items: flex-start;
+    width:530px;
+    justify-content: space-between;
+}
+
+.contact_left_inline3 p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.contact_left_inline4{
+    display: flex;
+    align-items: center;
+    width:520px;
+    justify-content: space-between;
+}
+
+.contact_left_inline4 p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.contact_left_inline4  a i{
+    font-size: 33px;
+    color: black;
+}
+
+.contacts_left_inline_social{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_left_btn{
+    margin-top: 40px;
+}
+
+.contact_left_btn button{
+    width: 500px;
+    padding: 20px 0;
+    background: black;
+    color: white;
+    font-size: 23px;
+    font-family: 'RF Tone';
+}
+
+.contact_right iframe{
+    width: 700px;
+    border:0;
+    height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.work_banner{
+    background: #f2f2f2;
+    height: 100%;
+    margin-top: 130px;
+}
+
+.work_padding{
+    padding: 0px 0;
+}
+
+.work_title{
+    text-align: center;
+    padding: 10px;
+}
+
+.work_title h2{
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.work_title p{
+    font-size: 25px;
+    margin: 0;
+}
+.form_block_inline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+form div input{
+    background: none;
+    border:0;
+    border-bottom: 3px solid gray;
+    padding: 15px 0;
+    font-size: 24px;
+    outline: none;
+    margin: 10px 0;
+    width: 430px !important;
+}
+form div select{
+    background: none;
+    border:0;
+    color: gray;
+    border-bottom: 2px solid gray;
+    padding: 15px 0;
+    font-size: 24px;
+    outline: none;
+    margin: 10px 0;
+    width: 430px !important;
+}
+form div{
+    position: relative;
+}
+
+form div i{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.work_banner .form_button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.form_button button{
+    width: 430px;
+    padding: 18px 0; 
+    background: black;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-family: 'RF Tone'; 
+    font-weight: 600;
+}
+
+
+
+
+.form_right_block div ul li {
+    font-size: 24px;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+}
+
+.form_right_block div ul li span{
+    margin: 0px 20px;
+}
+
+
+
+.form_block_center{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medida  */
+
+
+
+
+@media screen and (max-width:806px){
+    .form_block_inline{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .work_title{
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .work_title h2{
+        font-size: 35px;
+    }
+    
+    .work_title p{
+        font-size: 20px;
+    }
+ }
+
+ @media (max-width:684px){
+    .project_title{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+ }
+
+
+ @media (max-width:438px){
+    form div input{
+        background: none;
+        border:0;
+        border-bottom: 2px solid gray;
+        padding: 15px 0;
+        font-size: 25px;
+        outline: none;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+
+
+    .form_block_center{
+        width: 100%;
+        margin: auto;
+    }
+
+    .form_button{
+        width: 90%;
+        margin: auto;
+    }
+    .form_button button{
+        width: 100%;
+        padding: 15px 0; 
+        background: black;
+        color: white;
+        font-size: 23px;
+    }    
+ }
+
+ @media (max-width:369px){
+    .form_right_block div ul li span{
+        margin: 0px 2px;
+    }
+    
+ }
+
+
+ @media (max-width:320px){
+    .work_title h2{
+        font-size: 25px;
+    }
+
+    .form_button button{
+        width: 100%;
+        padding: 15px 0; 
+        background: black;
+        color: white;
+        font-size: 18px;
+    }    
+
+    .form_right_block div ul li {
+        font-size: 18px;
+        width: 100%;
+        margin: 15px 0;
+        display: flex;
+    }
+
+ }

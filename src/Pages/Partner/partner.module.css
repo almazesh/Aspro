@@ -1,0 +1,281 @@
+@import url('../../assets/Fonts/stylesheet.css');
+
+.partner_title{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.partner_title h1{
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.partner_p{
+    margin-top: 50px;
+}
+
+.partner_title p{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.partner_title2{
+    margin-top: 150px;
+}
+
+.partner_btn{
+    width: 450px;
+    padding: 20px 0;
+    background: black;
+    font-size: 24px;
+    font-family: 'RF Tone';
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.partner_advise{
+    margin-top: 130px;
+}
+
+.partner_advise h2{
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.partner_list div{
+    display: flex;
+}
+
+
+.partner_list div p:nth-child(1){
+    margin-right: 25px;
+}
+
+.partner_list div p{
+    margin-bottom:-2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.work_banner{
+    background: #f2f2f2;
+    height: 100%;
+    margin-top: 130px;
+}
+
+.work_padding{
+    padding: 0px 0;
+}
+
+.work_title{
+    text-align: center;
+    padding: 10px;
+}
+
+.work_title h2{
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.work_title p{
+    font-size: 26px;
+}
+.form_block_inline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+form div input{
+    background: none;
+    border:0;
+    border-bottom: 3px solid gray;
+    padding: 15px 0;
+    font-size: 24px;
+    outline: none;
+    margin: 10px 0;
+    width: 400px;
+}
+form div select{
+    background: none;
+    border:0;
+    color: gray;
+    border-bottom: 2px solid gray;
+    padding: 15px 0;
+    font-size: 24px;
+    outline: none;
+    margin: 10px 0;
+    width: 400px;
+}
+form div{
+    position: relative;
+}
+
+form div i{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.work_banner .form_button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.form_button button{
+    width: 430px;
+    padding: 18px 0; 
+    background: black;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-family: 'RF Tone'; 
+    font-weight: 600;
+}
+
+
+
+
+.form_right_block div ul li {
+    font-size: 24px;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+}
+
+.form_right_block div ul li span{
+    margin: 0px 20px;
+}
+
+
+
+.form_block_center{
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medida  */
+
+
+
+
+@media screen and (max-width:806px){
+    .form_block_inline{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .work_title{
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .work_title h2{
+        font-size: 35px;
+    }
+    
+    .work_title p{
+        font-size: 20px;
+    }
+ }
+
+ @media (max-width:684px){
+    .project_title{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+ }
+
+
+ @media (max-width:438px){
+    form div input{
+        background: none;
+        border:0;
+        border-bottom: 2px solid gray;
+        padding: 15px 0;
+        font-size: 25px;
+        outline: none;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+
+
+    .form_block_center{
+        width: 100%;
+        margin: auto;
+    }
+
+    .form_button{
+        width: 90%;
+        margin: auto;
+    }
+    .form_button button{
+        width: 100%;
+        padding: 15px 0; 
+        background: black;
+        color: white;
+        font-size: 23px;
+    }    
+ }
+
+ @media (max-width:369px){
+    .form_right_block div ul li span{
+        margin: 0px 2px;
+    }
+    
+ }
+
+
+ @media (max-width:320px){
+    .work_title h2{
+        font-size: 25px;
+    }
+
+    .form_button button{
+        width: 100%;
+        padding: 15px 0; 
+        background: black;
+        color: white;
+        font-size: 18px;
+    }    
+
+    .form_right_block div ul li {
+        font-size: 18px;
+        width: 100%;
+        margin: 15px 0;
+        display: flex;
+    }
+
+ }

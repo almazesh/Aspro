@@ -1,4 +1,9 @@
 import cls from './Solve.module.css'
+import Mac from '../../assets/Solve/mac.jpg'
+import Stol from '../../assets/Solve/stol.jpg'
+import Cafe from '../../assets/Solve/cafe.jpg'
+
+
 const Solve = () =>{
     return (
         <>
@@ -20,33 +25,33 @@ const Solve = () =>{
                     <div className={cls.solve_right_block}>
                         <div className={cls.solve_right_block_inline}>
                             <div className={cls.solve_card}>
-                                <img src="https://www.officelovin.com/wp-content/uploads/2019/10/lechte-corporation-office-mm-1.jpg"/>
+                                <img src={Mac}/>
                                 <div>
                                     <p>Магазины <br/> и торговые центры</p>
                                 </div>
                             </div>
                             <div className={cls.solve_card}>
-                                <img src="https://i.pinimg.com/originals/8d/28/7f/8d287ff6d856f13aa9d88c7ea19fa32f.jpg"/>
+                                <img src={Stol}/>
                                 <div>
                                     <p>Бизнес центры</p>
                                 </div>
                             </div>
                             <div className={cls.solve_card}>
-                                <img src="https://i.pinimg.com/originals/a1/97/8c/a1978cf1a76a475b7df92d7aca6ef334.jpg"/>
+                                <img src={Cafe}/>
                                 <div>
                                     <p>Рестораны и кафе</p>
                                 </div>
                             </div>
                             <div className={cls.solve_card}>
-                                <img src="https://officesnapshots.com/wp-content/uploads/2020/02/itoki-corporation-offices-tokyo-9-700x467.jpg"/>
+                                <img src={Stol}/>
                                 <div>
-                                    <p>Магазины <br/> и торговые центры</p>
+                                    <p>Бизнес центры</p>
                                 </div>
                             </div>
                             <div className={cls.solve_card}>
-                                <img src="http://retaildesignblog.net/wp-content/uploads/2017/05/Zigvy-Corporation-Office-by-ARCH.A-StudiO-Ho-Chi-Minh-City-Vietnam.jpg"/>
+                                <img src={Cafe}/>
                                 <div>
-                                    <p>Магазины <br/> и торговые центры</p>
+                                    <p>Рестораныи и кафе</p>
                                 </div>
                             </div>
                         </div>

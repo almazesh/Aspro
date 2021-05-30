@@ -1,4 +1,9 @@
 import cls from './SliderCard.module.css'
+import First from '../../assets/Slider/1.png'
+import Third from '../../assets/Slider/3.png'
+import Second from '../../assets/Slider/2.png'
+import Four from '../../assets/Slider/4.png'
+
 
 const SliderCard = () =>{
     return (
@@ -8,7 +13,7 @@ const SliderCard = () =>{
                     <div className="swiper-wrapper">
                         <div className="swiper-slide">
                             <div className={cls.card}>
-                                <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"/>
+                                <img src={Four}/>
                                 <div>
                                     <h2>
                                         Офис HTML Academy
@@ -21,7 +26,7 @@ const SliderCard = () =>{
                         </div>
                         <div className="swiper-slide">
                             <div className={cls.card}>
-                                <img src="https://images.pexels.com/photos/7070/space-desk-workspace-coworking.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"/>
+                                <img src={Third}/>
                                 <div>
                                     <h2>
                                         Культурный центр Андрея <br/> Вознесенского
@@ -35,7 +40,7 @@ const SliderCard = () =>{
                         
                         <div className="swiper-slide">
                             <div className={cls.card}>
-                                <img src="https://www.kovorkingi.ru/data/files/img/std/1000000/5000/4028-4k-centr-9d740e97ac97.jpg"/>
+                                <img src={Second}/>
                                 <div>
                                     <h2>
                                         Академия стили "Kinky hair"
@@ -49,7 +54,7 @@ const SliderCard = () =>{
 
                         <div className="swiper-slide">
                             <div className={cls.card}>
-                                <img src="https://free4kwallpapers.com/uploads/originals/2015/10/11/well-furnished-office-wallpaper.jpg"/>
+                                <img src={First}/>
                                 <div>
                                     <h2>
                                         Бизнес центр <br /> "Золотая долина" 
@@ -65,9 +70,9 @@ const SliderCard = () =>{
                             <div className={cls.card}>
                                 <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"/>
                                 <div>
-                                    <h1>
+                                    <h2>
                                         Html Academy
-                                    </h1>
+                                    </h2>
                                 </div>
                             </div>
                         </div>
@@ -76,9 +81,9 @@ const SliderCard = () =>{
                             <div className={cls.card}>
                                 <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"/>
                                 <div>
-                                    <h1>
+                                    <h2>
                                         Html Academy
-                                    </h1>
+                                    </h2>
                                 </div>
                             </div>
                         </div>
@@ -87,9 +92,9 @@ const SliderCard = () =>{
                             <div className={cls.card}>
                                 <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"/>
                                 <div>
-                                    <h1>
+                                    <h2>
                                         Html Academy
-                                    </h1>
+                                    </h2>
                                 </div>
                             </div>
                         </div>
@@ -98,9 +103,9 @@ const SliderCard = () =>{
                             <div className={cls.card}>
                                 <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"/>
                                 <div>
-                                    <h1>
+                                    <h2>
                                         Html Academy
-                                    </h1>
+                                    </h2>
                                 </div>
                             </div>
                         </div>

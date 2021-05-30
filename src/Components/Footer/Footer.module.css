@@ -1,6 +1,5 @@
 footer{
     background: #2a2a2a;
-    margin-top: 150px;
 }
 
 .footer_banner{
@@ -22,12 +21,13 @@ footer{
 
 .footer_inline ul p{
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     text-transform: uppercase;
 }
 
 .footer_inline ul li a{
     color: gainsboro;
+    font-size: 18px;
 }
 
 .footer_contacts li{
@@ -94,6 +94,7 @@ footer{
 
 .footer_last_inline li{
     color: gainsboro;
+    font-size: 14px ;
 }
 .footer_last_inline li a{
     color: gainsboro;

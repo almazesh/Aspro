@@ -12,7 +12,7 @@ const Navbar = () =>{
                     <div className={cls.navbar_inline}>
                         <ul className={cls.navbar_logo}>
                             <li>
-                                <img src={Logo}/>
+                                <Link to="/"><img src={Logo}/></Link>
                             </li>
                             <li className={cls.navbar_logo_item}>
                                 Профессиональные световые решения.
@@ -20,19 +20,19 @@ const Navbar = () =>{
                         </ul>
                         <ul className={cls.navbar_list}>
                             <li>
-                                <Link to="">Каталог</Link>
+                                <Link to="/catalog">Каталог</Link>
                             </li>
                             <li>
-                                <Link to="">Решения</Link>
+                                <Link to="/solution">Решения</Link>
                             </li>
                             <li>
-                                <Link to="">Проекты</Link>
+                                <Link to="/project">Проекты</Link>
                             </li>
                             <li>
-                                <Link to="">Партнерам</Link>
+                                <Link to="/partner">Партнерам</Link>
                             </li>
                             <li>
-                                <Link to="">Контакты</Link>
+                                <Link to="/contact">Контакты</Link>
                             </li>
                         </ul>
                         <ul className={cls.navbar_right_icons}>

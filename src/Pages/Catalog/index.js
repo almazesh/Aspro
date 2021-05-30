@@ -1,49 +1,42 @@
-import cls from './CatalogCards.module.css'
+import cls from './index.module.css';
 import Linear from '../../assets/lights/linear.jpg'
 import Ring from '../../assets/lights/ring.jpg'
 import Circle from '../../assets/lights/Circle.jpg'
 import ManyUgol from '../../assets/lights/Many.jpg'
 import X from '../../assets/lights/X.jpg'
 
-
-
-const MainCard = () =>{
+const Katalog = () =>{
     return (
         <>
-            <div className={cls.catalog_parent}>
-                <div className={cls.catalog_inline}>
-                    <div className={cls.catalog_first_card}>
-                        <div >
-                            <p>ASPRO Light - российский производитель светильников для коммерческих и частных интерьеров.</p>
-                        </div>
-                    </div>
-                    <div className={cls.catalog_right_block}>
-                        <div>
-                            <li>Полный цикл производства</li>
-                            <p>От идеи и разработки до сборки и упаковки</p>
-                        </div>
-                        <div>
-                            <li>10 лет гарантия</li>
-                            <p>На светильники</p>
-                        </div>
-                        <div>
-                            <li>Кастомизация под проект</li>
-                            <p>Изменения размера,цвета,формы под Ваши требования</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className={cls.catalog_title}>
-                    <div className={cls.catalog_title_inline}>
-                        <div></div>
-                        <p>Каталог светильников</p>
-                        <span>Смотреть все категории</span>
-                    </div>
+            <div className={cls.catalog_title}>
+                <p>Каталог светильников</p>
+            </div>
+            <div className={cls.catalog_banner}>
+                <div className={cls.catalog_select_inline}>
+                    <select>
+                        <option>
+                            Тип монтажа:
+                        </option>
+                    </select>
+                    <select>
+                        <option>
+                            Место установки:
+                        </option>
+                    </select>
+                    <select>
+                        <option>
+                            Степень защиты:
+                        </option>
+                    </select>
+                    <select className={cls.catalog_decor}>
+                        <option>
+                            Декоративные элементы:
+                        </option>
+                    </select>
                 </div>
             </div>
 
-           <div className={cls.cards_parent}>
+            <div className={cls.cards_parent}>
                 <div className={cls.cards_inline}>
                     <div className={cls.card}>
                         <img src={Linear}/>
@@ -114,7 +107,9 @@ const MainCard = () =>{
            </div>
 
 
-            <div className={cls.work_banner}>
+
+
+           <div className={cls.work_banner}>
                 <div className={cls.work_padding}>
                     <div className={cls.work_title}>
                         <h2>Возьмем ваш проект в работу!</h2>
@@ -172,17 +167,9 @@ const MainCard = () =>{
                     </div>
                 </div>
             </div>
-        
-            <div className={cls.project_banner}>
-                <div className={cls.project_title}>
-                    <div></div>
-                    <h2>Проекты</h2>
-                    <p>Смотреть все категории</p>
-                </div>
-            </div>
-       
         </>
     )
 }
 
-export default MainCard
+
+export default Katalog; 

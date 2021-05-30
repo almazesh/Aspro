@@ -2,6 +2,7 @@
     width: 92%;
     margin: auto;
     margin-top: 150px;
+    margin-bottom: 180px;
 }
 
 .solve_inline{
@@ -14,7 +15,7 @@
 }
 
 .solve_left_block h1{
-    font-size: 50px;
+    font-size: 52px;
 }
 
 .solve_left_block span{
@@ -29,8 +30,12 @@
     margin: 50px 0;
 }
 
+.solve_left_watch span{
+    font-size: 18px;
+}
+
 .solve_left_block p{
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .solve_card img{
@@ -42,6 +47,10 @@
     margin: 0 20px;
     text-align: center;
     font-size: 23px;
+}
+
+.solve_card p{
+    font-size: 24px;
 }
 
 

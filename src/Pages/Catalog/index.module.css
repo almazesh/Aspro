@@ -1,112 +1,63 @@
-.catalog_parent{
-    width: 90%;
-    margin: auto;
-    margin-top: 150px;
-}
+@import url('../../assets/Fonts/stylesheet.css');
 
-.catalog_inline
-{
-    display: flex;
-    align-items: flex-start;
-
-}
-
-.catalog_first_card div p{
-    color: gray;
-    font-size: 36px;
-    transform: translateY(-30px);
-}
-
-
-.catalog_first_card div{
-    width: 580px;
-}
-.catalog_first_card{
-    text-align: left !important;
-    width: 40%;
-}
-
-
-
-
-
-.catalog_right_block{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-
-}
-
-.catalog_right_block div{
-    width: 28%;
-}
-.catalog_right_block div p{
-    color: gray;
-    font-size: 24px;
-}
-
-.catalog_right_block div li{
-    font-size: 26px;
-    text-transform: uppercase;
-}
-
-
-.catalog_inline div li{
-    list-style: none;
-}
-
-
-
-/* Catalog title */
 
 .catalog_title{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
-.catalog_title h4{
-    font-size: 40px;
-}
-
-.catalog_title_inline{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.catalog_title_inline div{
-    width: 230px;
-}
-.catalog_title_inline p{
+.catalog_title p{
     font-size: 52px;
 }
 
-.catalog_title_inline span{
-    color: gray;
-    font-size: 18px;
-    border-bottom: 1px solid gray;
+.catalog_select_inline{
+    display: flex;
+    justify-content: space-between;
+    width: 1790px;
 }
 
-
-
-
-
-/* Cards */
-
-
-.cards_parent{
+.catalog_banner{
     width: 90%;
     margin: auto;
     margin-top: 100px;
 }
 
+.catalog_select_inline select{
+    font-family: 'RF Tone';
+    width: 300px;
+    outline: 0;
+    padding-bottom: 15px;
+    font-size: 26px;
+    border:0;
+    background: none;
+    border-bottom: 1px solid black  ;
+}
+
+
+.catalog_decor{
+    width: 400px !important;
+}
+    
+
+
+
+.cards_parent{
+    width: 93%;
+    margin: auto;
+    margin-top: 80px;
+}
+
 .cards_inline{
     display: flex;
     flex-wrap: wrap;
+    width: 1900px;
     align-items: center;
+
 }
+
+
 .cards_inline div{
-    margin: 20px 30px;
+    margin: 20px 35px;
 }
 
 .card{
@@ -122,7 +73,6 @@
     text-align: center;
     width: 100%;
 }
-
 
 
 
@@ -191,10 +141,12 @@ form div i{
 
 .form_button button{
     width: 400px;
-    padding: 15px 0; 
+    padding: 18px 0; 
     background: black;
     color: white;
     font-size: 24px;
+    margin-bottom: 120px;
+    font-family: 'RF Tone'; 
 }
 
 
@@ -220,33 +172,6 @@ form div i{
 
 
 
-/* Project */
-
-
-.project_banner{
-    text-align: center;
-    margin-top: 100px;
-}
-
-.project_title{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.project_title div{
-    width: 200px;
-}
-
-.project_title h2{
-    font-size: 52px;
-}
-
-.project_title p{
-    color: gray;
-    font-size: 18px;
-    border-bottom: 2px solid gray;
-}
 
 
 
@@ -256,83 +181,14 @@ form div i{
 
 
 
-/* Media */
+
+
+/* Medida  */
 
 
 
 
-
-@media screen and (max-width:1145px){
-        .catalog_inline
-    {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-
-    .catalog_first_card{
-        text-align: center !important;
-        width: 100%;
-    }
-
-    .catalog_first_card div{
-        width: 100%;
-    }
-    
-    
-
-}
-
-@media (max-width:997px)
-{
-    .catalog_title_inline{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-}
-
-@media screen and (max-width:877px){
-    .catalog_right_block{
-        display: flex;
-        justify-content: space-around;
-        height: 400px;
-        align-items: center;
-        width: 100%;
-        flex-direction: column;
-    
-    }
-
-    .catalog_right_block div{
-        width: 100%;
-    }
-}
-
-
-@media (max-width:799px){
-    .cards_inline{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-
-
-
-
-
- /* Work bammer*/ 
-
-
- 
-
- @media screen and (max-width:806px){
+@media screen and (max-width:806px){
     .form_block_inline{
         display: flex;
         justify-content: space-around;
