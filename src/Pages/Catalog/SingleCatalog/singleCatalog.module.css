@@ -1,0 +1,296 @@
+@import url('../../../assets/Fonts/stylesheet.css');
+
+
+.catalog_title{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.catalog_title .title{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.catalog_title .square{
+    font-size: 26px;
+    transform: translateX(-40px) !important;
+    color: gray;
+    font-weight: 100;
+}
+
+.catalog_select_inline{
+    display: flex;
+    justify-content: space-between;
+    width: 1790px;
+}
+
+.catalog_banner{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.catalog_select_inline select{
+    font-family: 'RF Tone';
+    width: 300px;
+    outline: 0;
+    padding-bottom: 15px;
+    font-size: 26px;
+    border:0;
+    background: none;
+    border-bottom: 1px solid black  ;
+}
+
+
+.catalog_decor{
+    width: 400px !important;
+}
+    
+
+
+
+.cards_parent{
+    width: 93%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.cards_inline{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1900px;
+    align-items: center;
+
+}
+
+
+.cards_inline div{
+    margin: 20px 35px;
+}
+
+.card{
+    text-align: center;
+}
+.card img{
+    width: 301px;
+}
+
+
+.card p{
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* Work banner */
+
+
+.work_banner{
+    background: #f2f2f2;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.work_padding{
+    padding: 50px 0;
+}
+
+.work_title{
+    text-align: center;
+    padding: 50px;
+}
+
+.work_title h2{
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.work_title p{
+    font-size: 26px;
+}
+.form_block_inline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+form div input{
+    background: none;
+    border:0;
+    border-bottom: 2px solid gray;
+    padding: 15px 0;
+    font-size: 24px;
+    outline: none;
+    margin: 10px 0;
+    width: 400px;
+}
+
+.firstInp{
+    width:270px !important;
+}
+form div{
+    position: relative;
+}
+
+form div i{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.work_banner .form_button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.form_button button{
+    width: 400px;
+    padding: 18px 0; 
+    background: black;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 120px;
+    font-family: 'RF Tone'; 
+}
+
+
+
+
+.form_right_block div ul li {
+    font-size: 24px;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+}
+
+.form_right_block div ul li span{
+    margin: 0px 20px;
+}
+
+
+
+.form_block_center{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medida  */
+
+
+
+
+@media screen and (max-width:806px){
+    .form_block_inline{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .work_title{
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .work_title h2{
+        font-size: 35px;
+    }
+    
+    .work_title p{
+        font-size: 20px;
+    }
+ }
+
+ @media (max-width:684px){
+    .project_title{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+ }
+
+
+ @media (max-width:438px){
+    form div input{
+        background: none;
+        border:0;
+        border-bottom: 2px solid gray;
+        padding: 15px 0;
+        font-size: 25px;
+        outline: none;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+
+
+    .form_block_center{
+        width: 100%;
+        margin: auto;
+    }
+
+    .form_button{
+        width: 90%;
+        margin: auto;
+    }
+    .form_button button{
+        width: 100%;
+        padding: 15px 0; 
+        background: black;
+        color: white;
+        font-size: 23px;
+    }    
+ }
+
+ @media (max-width:369px){
+    .form_right_block div ul li span{
+        margin: 0px 2px;
+    }
+    
+ }
+
+
+ @media (max-width:320px){
+    .work_title h2{
+        font-size: 25px;
+    }
+
+    .form_button button{
+        width: 100%;
+        padding: 15px 0; 
+        background: black;
+        color: white;
+        font-size: 18px;
+    }    
+
+    .form_right_block div ul li {
+        font-size: 18px;
+        width: 100%;
+        margin: 15px 0;
+        display: flex;
+    }
+
+ }

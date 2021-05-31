@@ -21,6 +21,7 @@ ul{
     height: 120px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .navbar_inline{
@@ -32,6 +33,9 @@ ul{
 .navbar_logo li img{
     width: 300px;
     height: 58px;
+    position: absolute;
+    top: 35px;
+    left: 43px;
 }
 
 .navbar_logo{
@@ -43,12 +47,20 @@ ul{
 .navbar_logo_item{
     width: 300px;
     font-size: 18px;
-    transform: translateY(10px);
+    position: absolute;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0,0,0,0.7);
+    line-height: 22px;
+    left: 379px;
+    top: 42px;
 }
 .navbar_list{
     display: flex;
     width: 800px;
     justify-content: space-between;
+    position: relative;
+    left:0px;
 }
 
 .navbar_list li a{
@@ -64,7 +76,8 @@ ul{
 }
 
 .navbar_right_icons li a img{
-    width: 28px;
+    width: 21px;
+    height: 24px;
 }
 
 

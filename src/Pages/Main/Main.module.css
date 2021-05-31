@@ -1,6 +1,6 @@
 .slider_parent{
     position: relative;
-    height: 100vh;
+    height: 800px;
 }
 
 
@@ -30,23 +30,48 @@
   }
 
  
+  :root{
+    --swiper-navigation-size:27px;
+ }
+
 
 
   .slider_picture1{
-      background: url('https://wallpapercave.com/wp/wp6181121.jpg') center / cover;
+      background: url('../../assets/Slider/slide1.jpg') center / cover;
       width: 100%;
-      height: 100vh;
+      height: 800px;
       display: flex;
       justify-content: center;
+      position: relative;
       align-items: center;
    
   }
+  .slider_picture1::before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(0,0,0,0.25);
+  }
+  .slider_picture2::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.35);
+}
 
   .slider_picture2{
       background: url('https://images8.alphacoders.com/595/thumb-1920-595107.jpg') center / cover;
       width: 100%;
-      height: 100vh;
+      height: 800px;
       display: flex;
+      position: relative;
+
       justify-content: center;
       align-items: center;
   
@@ -55,11 +80,12 @@
   .slider_picture3{
     background: url('https://lh3.googleusercontent.com/proxy/Wlfusm1YDzgcVSMEbQ3PFQCVRoigKWapAtEtjj5glIPSJj8CpzrhcHhzH8m1HwVbvwC58UD0Q7oQRrv8vAyQydrWjOBVXZ9_y0t5-jDx8FTtQpEZY9CGDTstakEB7gHHgi8BAOXjycnkLBxCC3m6aTCYFcTy') center / cover;
     width: 100%;
-    height: 100vh;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    position: relative;
+    
 }
 
 .slider_title{
@@ -67,6 +93,9 @@
     font-size: 80px;
     text-align: center;
     width: 900px;
+    line-height: 88px;
+    font-weight: 400;
+    position: relative;
 }
 
 
@@ -74,7 +103,17 @@
 
 
 
+.swiper_button_next{
+    content: '';
+    color: white;
+    margin-right: 45px;
+}
 
+.swiper_button_prev{
+    content: '';
+    color: white;
+    margin-left: 45px;
+}
 
 
 /* Media */

@@ -1,49 +1,85 @@
-import cls from './CatalogCards.module.css'
-import Linear from '../../assets/lights/linear.jpg'
-import Ring from '../../assets/lights/ring.jpg'
-import Circle from '../../assets/lights/Circle.jpg'
-import ManyUgol from '../../assets/lights/Many.jpg'
-import X from '../../assets/lights/X.jpg'
-import Clip from '../../assets/Solve/paperclip.png'
-
-
-const MainCard = () =>{
+import cls from './singleProduct.module.css'
+import Linear from '../../../assets/lights/linear.jpg'
+import Ring from '../../../assets/lights/ring.jpg'
+import Circle from '../../../assets/lights/Circle.jpg'
+import ManyUgol from '../../../assets/lights/Many.jpg'
+import X from '../../../assets/lights/X.jpg'
+import SliderCard from '../../Main/SliderCard'
+const singleSolve = () =>{
     return (
         <>
-            <div className={cls.catalog_parent}>
-                <div className={cls.catalog_inline}>
-                    <div className={cls.catalog_first_card}>
-                        <div >
-                            <p>ASPRO Light - российский производитель светильников для коммерческих и частных интерьеров.</p>
+            <div className={cls.slider_parent}>
+                <div className="swiper-container mySwiper">
+                    <div className="swiper-wrapper">
+                        <div className="swiper-slide">
+                            <div className={cls.slider_picture1}>
+                                <div>
+                                    <p className={cls.slider_title}>Решения для ресторанов, <br/> кафе и баров</p>
+                                    <p className={cls.slider_title_span}>Решения "" Решения для ресторанов</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className={cls.catalog_right_block}>
-                        <div>
-                            <li>Полный цикл производства</li>
-                            <p>От идеи и разработки до сборки и упаковки</p>
-                        </div>
-                        <div>
-                            <li>10 лет <br/> гарантия</li>
-                            <p>На светильники</p>
-                        </div>
-                        <div>
-                            <li>Кастомизация <br/> под проект</li>
-                            <p>Изменения размера,цвета,формы под Ваши требования</p>
-                        </div>
-                    </div>
+                    <div className="swiper-button-next"></div>
+                    <div className="swiper-button-prev"></div>
                 </div>
+            </div>
 
-
-                <div className={cls.catalog_title}>
-                    <div className={cls.catalog_title_inline}>
-                        <div></div>
-                        <p>Каталог светильников</p>
-                        <span>Смотреть все категории</span>
+            <div className={cls.solve_banner}>
+                    <div className={cls.solve_inline}>
+                        <div className={cls.solve_left}>
+                            <div>
+                                <p>Качественные световые решение в ресторанах,кафе и барах:</p>
+                            </div>
+                        </div>
+                        <div className={cls.solve_right}>
+                        <div className={cls.solve_right_inline}>
+                            <div>
+                                <h2>Создают</h2>
+                                <p>узнаваемый образ и <br/>влияют на имидж заведения</p>
+                            </div>
+                            <div>
+                                <h2>воздействуют</h2>
+                                <p>на восприятие цвета и <br/>вкуса</p>
+                            </div>
+                            <div>
+                                <h2>зонируют</h2>
+                                <p>помещение и выгодно <br/>подчеркивают детали интерьера</p>
+                            </div>
+                            <div>
+                                <h2>формируют</h2>
+                                <p>атмосферу <br/>гостеприимства и задают настроение</p>
+                            </div>
+                            <div>
+                                <h2>обеспечивают</h2>
+                                <p>комфортную работу<br/>персонала</p>
+                            </div>
+                            <div>
+                                <h2>меняются</h2>
+                                <p>в зависимости от<br/>времени суток и <br/> привлекают клиентов</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-           <div className={cls.cards_parent}>
+
+            <div className={cls.solve_description}>
+                <div>
+                    <h2>Описание</h2>
+                    <p>
+                         Серия функциональных подвесных светодиодных светильников с периметральной засветкой CUBE торговой марки БОСМА. Продуманный современный дизайн в сочетании с высокой эффективностью позволяет формировать уникальную и комфортную атмосферу в любом помещении. Важной особенностью технологии изготовления светильников серии CUBE является применение технологии сварки при изготовлении корпуса светильника, что позволяет получить цельнометаллический корпус без просветов в углах светильника. Разработано и производится в России.
+                    </p>
+                </div>
+            </div>
+
+            <div className={cls.solve_advise}>
+                <h2>Рекомендуемые модели</h2>
+            </div>
+
+
+
+            <div className={cls.cards_parent}>
                 <div className={cls.cards_inline}>
                     <div className={cls.card}>
                         <img src={Linear}/>
@@ -114,7 +150,15 @@ const MainCard = () =>{
            </div>
 
 
-            <div className={cls.work_banner}>
+           <div className={cls.solve_project}>
+                <div></div>
+                <h2>Проекты</h2>
+                <p>Смотреть все категории</p>
+           </div>
+
+           <SliderCard />
+           
+           <div className={cls.work_banner}>
                 <div className={cls.work_padding}>
                     <div className={cls.work_title}>
                         <h2>Возьмем ваш проект в работу!</h2>
@@ -130,7 +174,7 @@ const MainCard = () =>{
                                 </div>
                                 <div>
                                     <input type="text" placeholder="Комментарий"/>
-                                    <img src={Clip  }/>
+                                    <i className="fa fa-user"></i>
                                 </div>
                             </form>
                         </div>
@@ -173,16 +217,11 @@ const MainCard = () =>{
                 </div>
             </div>
         
-            <div className={cls.project_banner}>
-                <div className={cls.project_title}>
-                    <div></div>
-                    <h2>Проекты</h2>
-                    <p>Смотреть все категории</p>
-                </div>
-            </div>
+            
        
+
         </>
     )
 }
 
-export default MainCard
+export default singleSolve

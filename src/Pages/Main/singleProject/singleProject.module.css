@@ -1,0 +1,317 @@
+@import url('../../../assets/Fonts/stylesheet.css');
+.slider_parent{
+    position: relative;
+    height: 100vh;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+ 
+
+
+  .slider_picture1{
+      background: url('https://wallpapercave.com/wp/wp6181121.jpg') center / cover;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+  }
+
+  .slider_picture2{
+      background: url('https://images8.alphacoders.com/595/thumb-1920-595107.jpg') center / cover;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+
+  .slider_picture3{
+    background: url('https://lh3.googleusercontent.com/proxy/Wlfusm1YDzgcVSMEbQ3PFQCVRoigKWapAtEtjj5glIPSJj8CpzrhcHhzH8m1HwVbvwC58UD0Q7oQRrv8vAyQydrWjOBVXZ9_y0t5-jDx8FTtQpEZY9CGDTstakEB7gHHgi8BAOXjycnkLBxCC3m6aTCYFcTy') center / cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.slider_title{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    width: 1115px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.slider_title_span{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+
+
+
+.singleProject_banner{
+    width: 90%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.singleProject_inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.singleProject_left p{
+    margin-bottom: 15px;
+}
+
+.left_list{
+    font-size: 24px;
+    font-weight: 265;
+}
+
+.left_inline2{
+    display: flex;
+    align-items: flex-start;
+    width: 750px;
+    justify-content: space-between;
+}
+
+.left_inline3{
+    display: flex;
+    align-items: flex-start;
+    width: 828px;
+    justify-content: space-between;
+}
+
+
+.left_inline4{
+    display: flex;
+    align-items: flex-start;
+    width: 900px;
+    justify-content: space-between;
+}
+
+
+.left_inline5{
+    display: flex;
+    align-items: flex-start;
+    width: 520px;
+    justify-content: space-between;
+}
+
+
+.left_inline6{
+    display: flex;
+    align-items: flex-start;
+    width: 528px;
+    justify-content: space-between;
+}
+
+.left_inline7{
+    display: flex;
+    align-items: flex-start;
+    width: 430px;
+    justify-content: space-between;
+}
+
+.left_inline8{
+    display: flex;
+    align-items: flex-start;
+    width: 387px;
+    justify-content: space-between;
+}
+
+
+.right_list{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.singleProject_right{
+    width: 44%;
+}
+.singleProject_right p{
+    font-weight: 265;
+    font-size: 18px;
+    margin-bottom: 52px;
+    line-height: 21px;
+}
+
+
+
+
+
+
+
+
+
+/* Work banner */
+
+
+.work_banner{
+    background: #f2f2f2;
+    height: 100%;
+    margin-top:100px;
+}
+
+
+
+.work_title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.work_title h2{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.work_title p{
+    font-size: 26px;
+    font-weight: 300;
+}
+.form_block_inline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+form div input{
+    background: none;
+    border:0;
+    border-bottom: 1px solid rgba(0,0,0,0.6) ;
+    padding: 24px 0 !important;
+    font-size: 24px;
+    color: rgba(0,0,0,0.8) ;
+    outline: none;
+    margin: 10px 0;
+    width: 437px !important;
+    font-weight: 265;
+    font-family: 'RF Tone';
+}
+form div{
+    position: relative;
+}
+
+form div i{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.work_banner .form_button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.form_button button{
+    width: 455px;
+    height: 75px;
+    font-family: 'RF Tone';
+    border:0;
+    background: black;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+    margin-left: 80px;
+    margin-bottom: 157px;
+}
+
+
+
+
+.form_right_block div ul li {
+    font-size: 24px;
+    width: 100%;
+    margin: 30px 0;
+    font-weight: 300;
+    line-height: 28.8px;
+    display: flex;
+}
+
+.form_right_block div ul li span{
+    margin: 0px 20px;
+}
+
+
+
+.form_block_center{
+    width: 95%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media */
+
+@media screen and (max-width:1021px){
+    .slider_title{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        width: 900px;
+    }
+}
+
+@media screen and (max-width:853px){
+    .slider_title{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:609px){
+    .slider_title{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }  
+}

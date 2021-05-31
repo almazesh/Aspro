@@ -1,0 +1,83 @@
+@import url('../../../../assets/Fonts/stylesheet.css');
+
+.product_title{
+    width: 95%;
+    margin: auto;
+    text-align: right;
+    margin-top: 123px;
+}
+
+
+.product_title h1{
+    font-weight: 400;
+    font-family: 'RF Tone';
+    font-size: 52px;
+    margin-bottom: 0;
+}
+
+.product_banner{
+    width: 95%;
+    margin: auto;
+}
+
+
+
+.product_left{
+    width: 50%;
+}
+
+.product_left_inline{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.product_left_inline ul{
+    width: 28%;
+}
+
+ul h3{
+    font-family: 'RF Tone';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+ul li input{
+    width: 27px;
+    height: 27px;
+    margin-right: 18px;
+}
+
+ul li label{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul li{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.product_inline{
+    display: flex;
+    align-items:flex-start ;
+    justify-content: space-between;
+}
+
+.product_right p{
+    font-weight: 300;
+    font-size: 26px;
+    color: rgba(0,0,0,0.3);
+    transform: translateY(10px);
+}
+
+
+
+
+.product_right_slider_parent{
+    position: relative;
+    height: 100%;
+}
+
+

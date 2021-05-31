@@ -3,7 +3,7 @@ footer{
 }
 
 .footer_banner{
-    width: 85%;
+    width: 93%;
     margin: auto;
     padding-top: 10px;
 }
@@ -16,7 +16,7 @@ footer{
 
 .footer_inline ul li{
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 .footer_inline ul p{
@@ -31,7 +31,7 @@ footer{
 }
 
 .footer_contacts li{
-    margin-bottom: 45px !important;
+    margin-bottom: 26px !important;
 }
 
 
@@ -49,8 +49,9 @@ footer{
     background: none;
     border: 0;
     border-bottom: 2px solid gray;
-    width: 300px;
-    font-size: 17px;
+    width: 292px;
+    font-size: 20px;
+    font-weight: 300;
     padding: 15px 0;
     color: white;
     outline:0;
@@ -63,25 +64,27 @@ footer{
     cursor: pointer;
     border:0;
     color: white;
-    border-bottom: 2px solid gray;
-    font-size: 17px;
+    border-bottom: 0.4px solid rgba(255,255,255,0.8);
+    font-size: 18px;
+    font-weight: 300;
+    width: 81px;
     padding: 5px 0;
     transform: translateY(10px);
 }
 
 
 .inline_social{
-    padding-top: 80px;
+    padding-top: 73px;
 }
 
 .inline_social i{
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0 20px;
 }
 
 .footer_last{
-    width: 85%;
+    width: 93%;
     margin: auto;
 }
 
@@ -89,19 +92,22 @@ footer{
     display: inline-flex;
     padding: 10px 0;
     justify-content: space-around;
-    width: 1300px;
+    width: 1150px;
 }
 
 .footer_last_inline li{
-    color: gainsboro;
+    color: rgba(255,255,255,0.4);
     font-size: 14px ;
+    font-weight: 300;
 }
 .footer_last_inline li a{
-    color: gainsboro;
+    color: rgba(255,255,255,0.4);
+    font-weight: 300;
+    font-size: 14px;
 }
 
 hr{
-    border-color: gray;
+    border-color: rgba(255,255,255,0.3);
 }
 
 

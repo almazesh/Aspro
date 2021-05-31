@@ -10,7 +10,9 @@
     font-size: 52px;
 
 }
-
+a{
+    color: black;
+}
 
 .solve_banner{
     width: 90%;

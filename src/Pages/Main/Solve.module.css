@@ -1,5 +1,5 @@
 .solve_banner{
-    width: 92%;
+    width: 95%;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 180px;
@@ -11,16 +11,20 @@
 }
 
 .solve_left_block{
-    width: 47%;
+    width: 44%;
 }
 
 .solve_left_block h1{
     font-size: 52px;
+    font-weight: 600;
+    line-height: 62px;
 }
 
 .solve_left_block span{
-    color: gray;
-    border-bottom: 2px solid gray;
+    color: rgba(0,0,0,0.35);
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 2px solid rgba(0,0,0,0.35);
     
 
 
@@ -36,11 +40,14 @@
 
 .solve_left_block p{
     font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
 }
 
 .solve_card img{
-    width: 420px;
-    height:300px;
+    width: 400px;
+    height:305px;
+    
 }
 
 .solve_card{
@@ -51,6 +58,7 @@
 
 .solve_card p{
     font-size: 24px;
+    font-weight: 400;
 }
 
 
