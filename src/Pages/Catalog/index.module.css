@@ -27,7 +27,9 @@
     width: 300px;
     outline: 0;
     padding-bottom: 15px;
+    /* -webkit-appearance: none; */
     font-size: 26px;
+    font-weight: 265;
     border:0;
     background: none;
     border-bottom: 1px solid black  ;

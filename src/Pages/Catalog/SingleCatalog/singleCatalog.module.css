@@ -9,13 +9,16 @@
 .catalog_title .title{
     font-size: 52px;
     margin-bottom: 20px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 62px;
 }
 
 .catalog_title .square{
     font-size: 26px;
     transform: translateX(-40px) !important;
-    color: gray;
-    font-weight: 100;
+    color: rgba(0,0,0,0.3);
+    font-weight: 300;
 }
 
 .catalog_select_inline{
@@ -33,6 +36,7 @@
 .catalog_select_inline select{
     font-family: 'RF Tone';
     width: 300px;
+    font-weight: 265;
     outline: 0;
     padding-bottom: 15px;
     font-size: 26px;
@@ -80,6 +84,8 @@
     font-size: 24px;
     text-align: center;
     width: 100%;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 
@@ -110,11 +116,12 @@
 
 .work_title h2{
     font-size: 52px;
-    font-weight: 500;
+    font-weight: normal;
 }
 
 .work_title p{
     font-size: 26px;
+    font-weight: 300;
 }
 .form_block_inline{
     display: flex;
@@ -135,9 +142,7 @@ form div input{
     width: 400px;
 }
 
-.firstInp{
-    width:270px !important;
-}
+
 form div{
     position: relative;
 }
@@ -171,6 +176,9 @@ form div i{
     width: 100%;
     margin: 15px 0;
     display: flex;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .form_right_block div ul li span{

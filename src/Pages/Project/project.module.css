@@ -27,6 +27,7 @@
 
 .project_menu_inline  li{
     font-size: 24px;
+    font-weight: 300;
 }
 
 
@@ -58,11 +59,12 @@
 
 .card h2{
     font-family: 'RF Tone';
-    font-weight: 600;
+    font-weight: normal;
 }
 
 .card p{
     font-size: 18px;
+    font-weight: 265;
 }
 
 
