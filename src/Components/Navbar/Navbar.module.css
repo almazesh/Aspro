@@ -91,16 +91,99 @@ ul{
 /* Media */
 
 
-@media screen and (max-width:1434px){
-    .navbar_list{
-        display: none;
+@media screen and (max-width:1464px){
+    .navbar_list li a{
+        color: black;
+        font-size: 20px;
     }
+
+    .navbar_logo_item{
+        font-size: 17px;
+        left: 359px;
+        top: 42px;
+    }
+
+    
+    .navbar_right_icons li a img{
+        width: 23px;
+        height: 22px;
+    }
+
+    .navbar_logo li img{
+        width:280px;
+    }
+    
 }
 
 
-@media screen and (max-width:846px){
+@media  screen and (max-width:1392px) {
     .navbar_logo li img{
-        width: 200px;
+        width:250px;
+        height: 56px;
+    }
+    .navbar_logo_item{
+        font-size: 17px;
+        left: 329px;
+        top: 42px;
+    }
+
+}
+
+@media  screen and (max-width:1317px) {
+    .navbar_logo li img{
+        width:220px;
+        height: 46px;
+    }
+    .navbar_logo_item{
+        font-size: 17px;
+        left: 290px;
+        top: 42px;
+    }
+}
+
+@media  screen and (max-width:1231px) {
+    .navbar_logo li img{
+        width:200px;
+        height: 46px;
+    }
+
+    .navbar_logo_item{
+        font-size: 17px;
+        left: 270px;
+        top: 42px;
+    }
+}
+
+@media  screen and (max-width:1188px) {
+    .navbar_logo_item{
+        display: none;
+    }
+
+    .navbar_list{
+        display: flex;
+        width: 800px;
+        justify-content: space-between;
+        position: relative;
+        left:0px;
+    }
+
+    .navbar_logo{
+        width: 300px;
+    }
+
+
+    .navbar_right_icons li a img{
+        width: 23px;
+        height: 21px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:884px){
+    .navbar_logo li img{
+        width: 240px;
     }
 
     .navbar_logo_item{
@@ -108,6 +191,16 @@ ul{
         font-size: 18px;
         transform: translateY(0px);
     }
+
+    .navbar_list{
+        display: none;
+    }
+
+    .navbar_right_icons li a img{
+        width: 26px;
+        height: 24px;
+    }
+    
 }
 
 

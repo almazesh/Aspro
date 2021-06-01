@@ -130,7 +130,7 @@ const MainCard = () =>{
                                 </div>
                                 <div>
                                     <input type="text" placeholder="Комментарий"/>
-                                    <img src={Clip  }/>
+                                    <img src={Clip}/>
                                 </div>
                             </form>
                         </div>

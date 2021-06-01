@@ -102,31 +102,29 @@ const Partner = () =>{
 
                     <div className={cls.form_block_center}>
                         <div className={cls.form_block_inline}>
-                        <div className={cls.form_left_block}>
+                            <div className={cls.form_left_block}>
+                                <form>
+                                    <div>
+                                        <input type="text" placeholder="Телефон"/>
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="Комментарий"/>
+                                        <i className="fa fa-user"></i>
+                                    </div>
+                                </form>
+                            </div>
+                            <div className={cls.form_right_block}>
                             <form>
-                                <div>
-                                    <input type="text" placeholder="Телефон"/>
-                                </div>
-                                <div>
-                                    <input type="text" placeholder="Комментарий"/>
-                                    <i className="fa fa-user"></i>
-                                </div>
-                            </form>
-                        </div>
-                        <div className={cls.form_right_block}>
-                            <form>
-                                <div>
-                                    <input type="text" placeholder=" E-mail"/>
-                                </div>
-                                <div>
-                                    <select>
-                                        <option>
-                                            Сфера деятельности
-                                        </option>
-                                    </select>
-                                </div>
-                            </form>
-                        </div>
+                                    <div>
+                                        <input type="text" placeholder="Телефон"/>
+                                    </div>
+                                    <div>
+                                        <select>
+                                             <option>Сфера деятельности</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
 

@@ -178,7 +178,7 @@ form div input{
     color: rgba(0,0,0,0.8) ;
     outline: none;
     margin: 10px 0;
-    width: 437px !important;
+    width: 437px ;
     font-weight: 265;
     font-family: 'RF Tone';
 }
@@ -280,13 +280,50 @@ form div img{
 /* Media */
 
 
+/* Lights */
+
+@media  screen and (max-width:1913px) {
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards_inline div{
+        margin: 20px 20px;
+    }
+    
+    .card{
+        text-align: center;
+    }
+    .card img{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
 
 
 
-@media screen and (max-width:1145px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1416px){
         .catalog_inline
     {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
 
     }
@@ -297,12 +334,17 @@ form div img{
         width: 100%;
     }
 
-    .catalog_first_card div{
+  
+    .catalog_right_block{
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     
-    
-
+    .catalog_first_card div{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 @media (max-width:997px)
@@ -341,6 +383,64 @@ form div img{
         align-items: center;
     }
 }
+
+@media  (max-width:675px) {
+    .catalog_parent{
+        width: 100%;
+    }
+    .catalog_first_card div{
+        text-align: left;
+        width: 80%;
+        margin: auto;
+    }
+    .catalog_right_block{
+        margin-top: 100px;
+    }
+    .catalog_right_block div{
+        text-align: left;
+        width: 80%;
+        margin:30px auto;
+    }
+}   
+
+
+@media  (max-width:485px) {
+    .catalog_first_card div{
+        text-align: left;
+        width: 90%;
+        margin: auto;
+    }
+
+    .catalog_first_card div p{
+        font-size: 30px;
+    }
+
+    .catalog_right_block div{
+        text-align: left;
+        width: 90%;
+        margin:30px auto;
+    }
+
+
+
+    .catalog_title{
+        margin-top: 150px;
+    }
+
+    .catalog_title .catalog_title_inline p{
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -384,7 +484,24 @@ form div img{
  }
 
 
- @media (max-width:438px){
+
+@media  (max-width:544px) {
+    .form_button button{
+        margin-left: 0;
+        width: 100%;
+    }
+    .form_button{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+ @media screen and (max-width:457px){
     form div input{
         background: none;
         border:0;
@@ -393,7 +510,7 @@ form div img{
         font-size: 25px;
         outline: none;
         margin: 10px 0;
-        width: 100%;
+        width: 200px;
     }
 
 

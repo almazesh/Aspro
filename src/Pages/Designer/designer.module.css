@@ -1,72 +1,86 @@
 @import url('../../assets/Fonts/stylesheet.css');
 
-.partner_title{
-    width: 90%;
+.designer_title{
+    width: 92%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 152px;
 }
-
-.partner_title h1{
+.designer_title h2{
+    font-weight: 400;
     font-size: 52px;
-    font-weight: 500;
+    line-height: 62px;
 }
 
-.partner_p{
-    margin-top: 50px;
-}
-
-.partner_title p{
-    font-size: 25px;
-    font-weight: 100;
-}
-
-.partner_title2{
-    margin-top: 150px;
-}
-
-.partner_btn{
-    width: 450px;
-    padding: 20px 0;
-    background: black;
+.designer_title p{
+    font-weight: 265;
     font-size: 24px;
     font-family: 'RF Tone';
-    font-weight: 600;
-    color: white;
-    margin-top: 20px;
+    line-height: 28px;
+    color: rgba(0,0,0,0.7);
+    margin-top: 57px;
+    width: 1424px;
+}
+
+.designer_p{
+    margin-top: 21px;
 }
 
 
-.partner_advise{
-    margin-top: 130px;
+
+/* CArd */
+
+.designer_banner{
+    width: 92%;
+    margin: auto;
+    margin-top: 155px;
 }
 
-.partner_advise h2{
-    font-size: 38px;
-    font-weight: 300;
-    margin-top: 50px;
-}
-
-.partner_list div{
+.designer_inline{
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 1600px;
+}
+
+.designer_card{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 300px;
+}
+
+.designer_card h2{
+    margin-top: 19px;
+    font-size: 26px;
+    font-family: 'RF Tone';
+    font-weight: normal;
+    line-height: 31px;
+}
+
+.designer_card p{
+    font-size: 20px;
+    font-weight: 265;
+    margin-top: 7px;
+}
+
+.designer_card button{
+    margin-top: 21px;
+    width: 285px;
+    height: 55px;
+    background: black;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'RF Tone';
 }
 
 
-.partner_list div p:nth-child(1){
-    margin-right: 25px;
-}
-
-.partner_list div p{
-    margin-bottom:-2px;
-}
 
 
 
-
-
-
-
-
-
+/* Work banner */
 
 
 
@@ -74,7 +88,6 @@
 .work_banner{
     background: #f2f2f2;
     height: 100%;
-    margin-top: 130px;
 }
 
 .work_padding{
@@ -88,18 +101,15 @@
 .work_title h2{
     font-size: 52px;
     padding-top: 78px;
-    font-weight: normal;
+    font-weight: 400;
 }
 
-.work_title p{
-    font-size: 26px;
-    font-weight: 300;
-    margin-top: 20px;
-}
+
 .form_block_inline{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 108px;
 }
 
 
@@ -149,9 +159,9 @@ form div i{
     background: black;
     color: white;
     font-size: 24px;
-    margin-bottom: 46px;
+    margin-bottom: 78px;
     font-family: 'RF Tone'; 
-    font-weight: bold;
+    font-weight: 700;
 }
 
 

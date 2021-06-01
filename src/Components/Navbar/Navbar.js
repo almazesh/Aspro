@@ -4,7 +4,9 @@ import Shop from '../../assets/Navbar/shopping-bag.png'
 import Search from '../../assets/Navbar/loupe.png'
 import Bars from '../../assets/Navbar/menu.png'
 import {Link} from 'react-router-dom';
+import sideBar from './sideBar/sideBar'
 const Navbar = () =>{
+    
     return (
         <>
             <nav>
@@ -47,7 +49,7 @@ const Navbar = () =>{
                                 </Link>
                             </li>
                             <li>
-                                <Link to="">
+                                <Link to="" >
                                     <img src={Bars}/>
                                 </Link>
                             </li>
@@ -60,3 +62,6 @@ const Navbar = () =>{
 }
 
 export default Navbar
+
+
+

@@ -8,12 +8,13 @@
 
 .catalog_title p{
     font-size: 52px;
+    font-weight: 400;
 }
 
 .catalog_select_inline{
     display: flex;
     justify-content: space-between;
-    width: 1790px;
+    width: 1690px;
 }
 
 .catalog_banner{
@@ -52,14 +53,14 @@
 .cards_inline{
     display: flex;
     flex-wrap: wrap;
-    width: 1900px;
+    width: 1760px;
     align-items: center;
 
 }
 
 
 .cards_inline div{
-    margin: 20px 35px;
+    margin: 20px 25px;
 }
 
 .card{
@@ -67,6 +68,7 @@
 }
 .card img{
     width: 301px;
+    height: 300px;
 }
 
 
@@ -124,7 +126,7 @@ form div input{
     font-size: 24px;
     outline: none;
     margin: 10px 0;
-    width: 400px;
+    width: 419px;
 }
 form div{
     position: relative;
@@ -186,6 +188,193 @@ form div i{
 
 
 /* Medida  */
+
+@media  (max-width:1825px) {
+    .catalog_select_inline{
+        display: flex;
+        justify-content: space-between;
+        width: 1600px;
+    }
+
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1600px;
+        align-items: center;
+    
+    }
+    
+}
+
+@media  (max-width:1710px) {
+    .catalog_select_inline{
+        display: flex;
+        justify-content: space-between;
+        width: 1500px;
+    }
+
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1500px;
+        align-items: center;
+    
+    }
+
+    .cards_inline div{
+        margin: 20px 35px;
+    }
+    
+}
+
+@media  (max-width:1603px) {
+    .catalog_decor{
+        width: 350px !important;
+    }
+        
+    .catalog_select_inline{
+        display: flex;
+        justify-content: space-between;
+        width: 1400px;
+    }
+    .cards_inline div{
+        margin: 20px 30px;
+    }
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1450px;
+        align-items: center;
+    
+    }
+}
+
+
+@media (max-width:1505px) {
+    .catalog_select_inline{
+        display: flex;
+        justify-content: space-between;
+        width: 1330px;
+    }  
+    .cards_inline div{
+        margin: 20px 25px;
+    }
+
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1350px;
+        align-items: center;
+    
+    }
+
+    .catalog_select_inline select{
+        font-family: 'RF Tone';
+        width: 280px;
+        outline: 0;
+        padding-bottom: 15px;
+        /* -webkit-appearance: none; */
+        font-size: 26px;
+        font-weight: 265;
+        border:0;
+        background: none;
+        border-bottom: 1px solid black  ;
+    }
+    
+}
+
+@media  (max-width:1422px) {
+    .catalog_select_inline select{
+        font-family: 'RF Tone';
+        width: 250px;
+        outline: 0;
+        padding-bottom: 15px;
+        /* -webkit-appearance: none; */
+        font-size: 26px;
+        font-weight: 265;
+        border:0;
+        background: none;
+        border-bottom: 1px solid black  ;
+    } 
+
+    .catalog_select_inline{
+        display: flex;
+        justify-content: space-between;
+        width: 1230px;
+    }  
+
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1250px;
+        align-items: center;
+    
+    }
+}
+@media  (max-width:1301px) {
+    .cards_inline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    } 
+
+    .catalog_select_inline select{
+        font-family: 'RF Tone';
+        width: 300px;
+        outline: 0;
+        padding-bottom: 15px;
+        /* -webkit-appearance: none; */
+        font-size: 26px;
+        font-weight: 265;
+        border:0;
+        background: none;
+        border-bottom: 1px solid black  ;
+        margin-top: 50px;
+    } 
+    .catalog_select_inline{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }  
+    .catalog_decor{
+        width: 230px;
+    }
+
+}
+
+
+@media  (max-width:751px) {
+    
+}
+
+
+@media  (max-width:665px) {
+    .catalog_decor{
+        width: 100% !important;
+    }
+    .catalog_select_inline select{
+        font-family: 'RF Tone';
+        width: 100%;
+        outline: 0;
+        padding-bottom: 15px;
+        /* -webkit-appearance: none; */
+        font-size: 26px;
+        font-weight: 265;
+        border:0;
+        background: none;
+        border-bottom: 1px solid black  ;
+        margin-top: 50px;
+    } 
+
+}
+
+@media  (max-width:541px) {
+    .catalog_title p{
+        font-size: 40px;
+    }
+}
 
 
 

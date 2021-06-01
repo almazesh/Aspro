@@ -40,6 +40,7 @@ const Katalog = () =>{
                 <div className={cls.cards_inline}>
                     <div className={cls.card}>
                         <img src={Linear}/>
+                        
                         <div className={cls.card_title}>
                             <p>
                                 Прямоугольные <br /> светильники
