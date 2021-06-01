@@ -1,7 +1,7 @@
 @import url('../../../assets/Fonts/stylesheet.css');
 .slider_parent{
     position: relative;
-    height: 100vh;
+    height: 800px;
 }
 
 
@@ -34,29 +34,53 @@
 
 
   .slider_picture1{
-      background: url('https://wallpapercave.com/wp/wp6181121.jpg') center / cover;
+      background: url('../../../assets/Solve/slider.jpg') center / cover;
       width: 100%;
-      height: 100vh;
+      height: 800px;
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
    
   }
+
+  .slider_picture1::before{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.3);
+      ;
+  }
+
+  .slider_picture2::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    ;
+}
 
   .slider_picture2{
       background: url('https://images8.alphacoders.com/595/thumb-1920-595107.jpg') center / cover;
       width: 100%;
-      height: 100vh;
+      height: 800px;
       display: flex;
       justify-content: center;
       align-items: center;
+      position: relative;
   
   }
 
   .slider_picture3{
     background: url('https://lh3.googleusercontent.com/proxy/Wlfusm1YDzgcVSMEbQ3PFQCVRoigKWapAtEtjj5glIPSJj8CpzrhcHhzH8m1HwVbvwC58UD0Q7oQRrv8vAyQydrWjOBVXZ9_y0t5-jDx8FTtQpEZY9CGDTstakEB7gHHgi8BAOXjycnkLBxCC3m6aTCYFcTy') center / cover;
     width: 100%;
-    height: 100vh;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,6 +93,7 @@
     text-align: center;
     width: 1115px;
     font-weight: 400;
+    position: relative;
     margin-bottom: 10px;
 }
 
@@ -81,7 +106,15 @@
 
 
 
+.swiper_button_next{
+    color: white;
+    margin-right: 50px;
+}
 
+.swiper_button_prev{
+    color: white;
+    margin-left: 50px;
+}
 
 
 .solve_banner{

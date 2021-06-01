@@ -92,9 +92,14 @@
     font-size: 24px;
 }
 
-
-
-
+.swiper_button_next{
+    color: white;
+    margin-right: 43px;
+}
+.swiper_button_prev{
+    color: white;
+    margin-left: 43px;
+}
 
 .singleProject_banner{
     width: 90%;

@@ -20,8 +20,8 @@ const singleSolve = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="swiper-button-next"></div>
-                    <div className="swiper-button-prev"></div>
+                    <div className={cls.swiper_button_next +" swiper-button-next"}></div>
+                    <div className={cls.swiper_button_prev + " swiper-button-prev"}></div>
                 </div>
             </div>
 
