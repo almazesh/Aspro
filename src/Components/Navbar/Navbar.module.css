@@ -91,6 +91,141 @@ ul{
 /* Media */
 
 
+
+
+@media  screen and (max-width:1446px) and (max-height:760px) {
+    .navbar_background{
+        background: white;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .navbar_logo li img{
+        width: 200px;
+        height: 38px;
+        position: absolute;
+        top: 35px;
+        left: 43px;
+    }
+    .navbar_logo_item{
+        width: 230px;
+        font-size: 14px;
+        position: absolute;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(0,0,0,0.7);
+        line-height: 22px;
+        left: 270px;
+        top: 30px;
+    }
+
+
+    .navbar_list li a{
+        color: black;
+        font-size: 18px;
+    }
+
+    
+.navbar_right_icons li a img{
+    width: 17px;
+    height: 17px;
+}
+
+.navbar_list{
+    display: flex;
+    width: 540px;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.navbar_logo{
+    display: flex;
+    justify-content: space-around;
+    width: 530px;
+}
+
+.navbar_right_icons{
+    display: flex;
+    margin-left: auto;
+    width: 80px;
+    justify-content: space-between;
+}
+
+
+}
+
+
+
+
+
+@media  screen and (max-width:1085px) and (max-height:570px){
+    .navbar_logo li img{
+        width: 200px;
+        height: 45px;
+        position: absolute;
+        top: 35px;
+        left: 30px;
+    }
+    .navbar_logo_item{
+        width: 240px;
+        font-size: 13px;
+        position: absolute;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(0,0,0,0.7);
+        line-height: 22px;
+        left: 249px;
+        top: 36px;
+    }
+    .navbar_list li a{
+        color: black;
+        font-size: 17px;
+    }
+
+    .navbar_right_icons li a img{
+        width: 20px;
+        height: 21px;
+    }
+    .navbar_background{
+        background: white;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .navbar_list{
+        display: flex;
+        width: 550px;
+        justify-content: space-between;
+        position: relative;
+        left:0px;
+    }
+    .navbar_right_icons{
+        display: flex;
+        margin-left: auto;
+        width: 100px;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 @media screen and (max-width:1464px){
     .navbar_list li a{
         color: black;
@@ -232,4 +367,4 @@ ul{
     }
     
     
-}
+} */

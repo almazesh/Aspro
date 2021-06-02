@@ -1,5 +1,6 @@
 import cls from './contact.module.css'
 import {Link} from 'react-router-dom'
+import Clip from '../../assets/Solve/paperclip.png'
 const Contact = () =>{
     return(
         <>
@@ -68,31 +69,31 @@ const Contact = () =>{
 
                     <div className={cls.form_block_center}>
                         <div className={cls.form_block_inline}>
-                        <div className={cls.form_left_block}>
-                            <form>
-                                <div>
-                                    <input type="text" placeholder="Телефон"/>
-                                </div>
-                                <div>
-                                    <input type="text" placeholder="Комментарий"/>
-                                    <i className="fa fa-user"></i>
-                                </div>
-                            </form>
-                        </div>
-                        <div className={cls.form_right_block}>
-                            <form>
-                                <div>
-                                    <input type="text" placeholder=" E-mail"/>
-                                </div>
-                                <div>
-                                    <select>
-                                        <option>
-                                            Идея заключается в:
-                                        </option>
-                                    </select>
-                                </div>
-                            </form>
-                        </div>
+                            <div className={cls.form_left_block}>
+                                <form className={cls.forms}>
+                                    <div>
+                                        <input type="text" placeholder="Телефон"/>
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="Комментарий"/>
+                                        <img src={Clip}/>
+                                    </div>
+                                </form>
+                            </div>
+                            <div className={cls.form_right_block}>
+                                <form className={cls.forms}>
+                                    <div>
+                                        <input type="text" placeholder="E-mail"/>
+                                    </div>
+                                    <div>
+                                        <select>
+                                            <option>
+                                                Сфера деятельноси:
+                                            </option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
 

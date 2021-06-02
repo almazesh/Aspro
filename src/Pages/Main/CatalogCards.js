@@ -98,7 +98,7 @@ const MainCard = () =>{
                         <div className={cls.card_title}>
                             <p>
                                 Многоугольные <br /> светильники
-                            </p>
+                              </p>
                         </div>
                     </div>
                     <div className={cls.card}>
@@ -124,7 +124,7 @@ const MainCard = () =>{
                     <div className={cls.form_block_center}>
                         <div className={cls.form_block_inline}>
                         <div className={cls.form_left_block}>
-                            <form>
+                            <form className={cls.form}>
                                 <div>
                                     <input type="text" placeholder="Телефон или E-mail"/>
                                 </div>

@@ -81,6 +81,46 @@
 /* MEdaia */
 
 
+@media  (max-width:1446px) and (max-height:760px) {
+    .solve_left_block h1{
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 42px;
+    }
+
+    .solve_right_block{
+        transform: translateY(30px);
+    }
+    .solve_left_block p{
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+    .solve_card img{
+        width: 250px !important;
+        height:250px !important;
+        
+    }
+    
+    .solve_card{
+        margin: 0 20px;
+        text-align: center;
+    }
+    
+    .solve_card p{
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    .solve_inline{
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+
 
 @media (max-width:2086px){
     .solve_card img{

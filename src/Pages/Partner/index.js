@@ -1,5 +1,5 @@
 import cls from './partner.module.css'
-
+import Clip from '../../assets/Solve/paperclip.png'
 const Partner = () =>{
     return (
         <>
@@ -103,24 +103,26 @@ const Partner = () =>{
                     <div className={cls.form_block_center}>
                         <div className={cls.form_block_inline}>
                             <div className={cls.form_left_block}>
-                                <form>
+                                <form className={cls.forms}>
                                     <div>
                                         <input type="text" placeholder="Телефон"/>
                                     </div>
                                     <div>
                                         <input type="text" placeholder="Комментарий"/>
-                                        <i className="fa fa-user"></i>
+                                        <img src={Clip}/>
                                     </div>
                                 </form>
                             </div>
                             <div className={cls.form_right_block}>
-                            <form>
+                                <form className={cls.forms}>
                                     <div>
-                                        <input type="text" placeholder="Телефон"/>
+                                        <input type="text" placeholder="E-mail"/>
                                     </div>
                                     <div>
                                         <select>
-                                             <option>Сфера деятельности</option>
+                                            <option>
+                                                Сфера деятельноси:
+                                            </option>
                                         </select>
                                     </div>
                                 </form>

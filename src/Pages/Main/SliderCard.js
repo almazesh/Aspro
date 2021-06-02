@@ -112,7 +112,7 @@ const SliderCard = () =>{
                         
                     </div>
                     <div className={cls.swiper_next + " swiper-button-next"}></div>
-                     <div className="swiper-button-prev"></div>
+                     <div className={cls.swiper_prev +  " swiper-button-prev"}></div>
                 </div>
             </div>
         </>
