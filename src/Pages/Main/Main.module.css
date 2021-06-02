@@ -119,41 +119,43 @@
 /* Media */
 @media  (max-width:1446px) and (max-height:760px) {
     .slider_picture1{
-        height: 500px;
+        height: 570px;
     }
     .slider_parent{
         position: relative;
-        height: 500px;
+        height: 570px;
+
 
     }
     :root{
-        --swiper-navigation-size:17px;
+        --swiper-navigation-size:15px;
      }
     
     .slider_picture2{
-        height: 500px;
+        height: 570px;
+
 
     }
 
     .slider_title{
         color: white;
-        font-size: 40px;
+        font-size: 56px;
         text-align: center;
         width: 600px;
-        line-height: 48px;
+        line-height: 63px;
         font-weight: 400;
         position: relative;
     }
     .swiper_button_next{
         content: '';
         color: white;
-        margin-right: 45px;
+        margin-right: 16px;
     }
     
     .swiper_button_prev{
         content: '';
         color: white;
-        margin-left: 45px;
+        margin-left: 16px;
     }
     
 }
@@ -192,38 +194,52 @@
 }
 
 
-@media screen and (max-width:609px){
+@media screen and (max-width:706px){
     .slider_title{
         color: white;
         font-size: 30px;
         text-align: center;
-        width: 100%;
+        width:70%;
+        line-height: 30px;
     }  
+
+    .slider_picture1 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider_picture2 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
-@media  (max-width:542px) {
+
+
+
+/* Mobile */
+
+
+@media (max-width:375px) {
     .slider_picture1{
-        height: 500px;
+        height: 400px;
     }
 
     .slider_picture2{
-        height: 500px;
+        height: 400px;
     }
 
     .slider_parent{
-        position: relative;
-        height: 500px;
+        height: 400px;
     }
-    .slider_title{
-        color: white;
-        font-size: 40px;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-        line-height: 70px;
-    }  
-    
-    
-    
+
+    .swiper_button_next{
+        margin-right: 5px;
+    }
+
+    .swiper_button_prev{
+        margin-left: 5px;
+    }
 }

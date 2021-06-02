@@ -3,13 +3,13 @@
     height: 100%;
     width: 95%;
     margin: auto;
-    margin-top: 0px; 
+    transform: translateY(-55px);
 }
 
 
 .swiper-container {
     width: 100%;
-    height: 100%;
+    height: 400px;
   }
 
   .swiper-slide {
@@ -54,31 +54,50 @@
      line-height: 21px;
  }
 
+.swiper_next{
+    color: black;
+}
 
+.swiper_prev{
+    color: black;
+}
 
 @media  (max-width:1446px) and (max-height:760px) {
     .card img{
-        width: 250px !important;
-        height: 290px !important;
+        width: 275px !important;
+        height: 270px !important;
         object-fit: cover;
     }
     .card h2{  
-        font-size: 19px;
+        font-size: 17px;
         font-weight: 400;
-        line-height: 28px;
+        line-height: 20px;
     }
-   
     .card p{
-        font-size: 15px;
+        font-size: 13px;
+        transform: translateY(-10px);
         font-weight: 265;
         line-height: 21px;
     }
-   
-   
-   .card{
-    height: 460px;
-}
+    :root{
+        --swiper-navigation-size:15px;
+     }
     
+    .card{
+        height: 460px;
+    }
+
+    .swiper_next{
+        transform: translateY(-40px);
+        color: black;
+        font-weight: 900;
+    }
+    .swiper_prev{
+        transform: translateY(-40px);
+        color: black;
+        font-weight: 900;
+    }
+        
 }
 
 
@@ -145,15 +164,32 @@
      }
  }
 
- @media (max-width:347px){
+ @media (max-width:375px){
     .card img{
         width: 250px;
-        height: 250px;
+        height: 270px;
         object-fit: cover;
     }
     .card{
         transform: translateY(50px);
     }
+    .card h2{
+        font-size:20px;
+    }
+
+    .card p{
+        font-size:15px;
+    }
+
+    .swiper_prev , .swiper_next{
+        transform: translateY(-100px);
+    }
+
+    .slider_parent{
+        height: 400px;
+    }
  }
+
+
 
 

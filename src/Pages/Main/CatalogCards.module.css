@@ -253,15 +253,15 @@ form div img{
     justify-content: space-between;
 }
 
-.project_title div{
-    width: 200px;
-}
 
 .project_title h2{
     font-size: 52px;
     font-weight: 400;
 }
 
+.project_title div{
+    width: 200px;
+}
 .project_title p{
     color: rgba(0,0,0,0.35);
     font-family: 'RF Tone';
@@ -322,34 +322,38 @@ form div img{
         transform: translateY(-25px);
     }
     
-    
+    .catalog_parent{
+        width:91%;
+        margin: auto;
+        margin-top: 85px;
+    }
     .catalog_first_card div{
         width: 440px;
     }
     .catalog_first_card{
         text-align: left !important;
-        width: 30%;
+        width: 35%;
     }
     .catalog_right_block div{
         width: 29%;
     }
     .catalog_right_block div p{
-        line-height: 29px;
-        font-size: 18px;
+        line-height: 23px;
+        font-size: 17px;
         font-weight: 265;
     }
     
     .catalog_right_block div li{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
-        line-height: 31px;
+        line-height: 24px;
         text-transform: uppercase;
     }
     
     .project_title h2{
-    font-size: 42px !important;
-    font-weight: 400;
-}
+        font-size: 42px !important;
+        font-weight: 400;
+    }
 }
 
 
@@ -408,12 +412,32 @@ form div img{
 @media  (max-width:1446px) and (max-height:760px) {
     
 .cards_parent{
-    width: 94%;
+    width: 95%;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 40px;
+}
+
+.catalog_title{
+    margin-top: 10px;
+    font-size: 52px;
+}
+
+.catalog_title_inline div{
+    width: 160px;
+}
+
+
+.catalog_title_inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog_title_inline span{
+    font-size: 12px;
+    transform: translateY(4px);
 }
 .catalog_title_inline p{
-    font-size: 35px;
+    font-size: 37px;
 }
 .cards_inline{
     display: flex;
@@ -422,22 +446,24 @@ form div img{
     justify-content: flex-start;
 }   
 .cards_inline div{
-    margin: 20px 25;
+    margin: 20px 20px;
 }
-.card{
-    text-align: center;
-}
+    .card{
+        text-align: center;
+    }
     .card img{
-    width: 190px;
-    height: 190px;
+    width: 215px;
+    height: 213px;
     }
 
 
     .card p{
-    font-size: 19px;
-    line-height: 28px;
+    font-size: 17px;
+    line-height: 20px;
     font-weight: 400;
+    margin-top: 0;
     text-align: center;
+    transform: translateY(-10px);
     width: 100%;
     }
 
@@ -463,6 +489,7 @@ form div img{
     
     .cards_inline{
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         align-items: center;
     }
@@ -496,99 +523,6 @@ form div img{
 
 
 
-@media (max-width:997px)
-{
-    .catalog_title_inline{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-}
-
-@media screen and (max-width:877px){
-    .catalog_right_block{
-        display: flex;
-        justify-content: space-around;
-        height: 400px;
-        align-items: center;
-        width: 100%;
-        flex-direction: column;
-    
-    }
-
-    .catalog_right_block div{
-        width: 100%;
-    }
-}
-
-
-@media (max-width:799px){
-    .cards_inline{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media  (max-width:675px) {
-    .catalog_parent{
-        width: 100%;
-    }
-    .catalog_first_card div{
-        text-align: left;
-        width: 80%;
-        margin: auto;
-    }
-    .catalog_right_block{
-        margin-top: 100px;
-    }
-    .catalog_right_block div{
-        text-align: left;
-        width: 80%;
-        margin:30px auto;
-    }
-}   
-
-
-@media  (max-width:485px) {
-    .catalog_first_card div{
-        text-align: left;
-        width: 90%;
-        margin: auto;
-    }
-
-    .catalog_first_card div p{
-        font-size: 30px;
-    }
-
-    .catalog_right_block div{
-        text-align: left;
-        width: 90%;
-        margin:30px auto;
-    }
-
-
-
-    .catalog_title{
-        margin-top: 150px;
-    }
-
-    .catalog_title .catalog_title_inline p{
-        font-size: 35px;
-    }
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -603,7 +537,7 @@ form div img{
     .work_banner{
         background: #f2f2f2;
         height: 100%;
-        margin-top:100px;
+        margin-top:50px;
         padding: 0px 0;
     }
     
@@ -614,16 +548,16 @@ form div img{
         
     .work_title{
         text-align: center;
-        padding-top: 20px;
+        padding-top: 5px;
     }
     
     .work_title h2{
-        font-size: 32px;
+        font-size: 34px;
         font-weight: 400;
     }
     
     .work_title p{
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 300;
     }
 
@@ -631,36 +565,92 @@ form div img{
         background: none;
         border:0;
         border-bottom: 1px solid rgba(0,0,0,0.6) ;
-        padding: 18 px 0 !important;
-        font-size: 20px !important;
+        padding: 18px 0 !important;
+        font-size: 18px !important;
         color: rgba(0,0,0,0.8) ;
         outline: none;
-        margin: 10px 0;
-        width: 337px ;
+        width: 300px !important;
         font-weight: 265;
+        margin:5px 0px;
         font-family: 'RF Tone';
     }
 
-    .project_title h2{
-        font-size: 42px;
+ 
+    .form_block_inline{
+        margin-top: 15px;
+    }
+    .form img{
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 0%;
+        top: 40%;
+    }
+
+    .work_banner .form_button {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .form_button button{
+        width: 325px;
+        height: 55px;
+        font-family: 'RF Tone';
+        border:0;
+        background: black;
+        font-weight: 700;
+        color: white;
+        font-size:17px;
+        margin-left: 60px;
+        margin-bottom:27px;
+    }
+    
+        
+    .form_right_block div ul li {
+        font-size: 17px;
+        width: 100%;
+        margin: 15px 0;
+        font-weight: 400;
+        line-height: 24px;
+        display: flex;
+    }
+
+    .form_right_block div ul li span{
+        margin: 0px 18px;
     }
 
 
+
+
+
+
+    /* project */
+
     
-.form_right_block div ul li {
-    font-size: 14px;
-    width: 100%;
-    margin: 30px 0;
-    font-weight: 300;
-    line-height: 28.8px;
-    display: flex;
-}
 
-.form_right_block div ul li span{
-    margin: 0px 18px;
-}
+    .project_banner{
+        text-align: center;
+        width: 89%;
+        margin: auto;
+        margin-top: 90px;
+    }
+
+    .project_title h2{
+        font-size: 37px !important;
+    }
 
 
+    .project_title div{
+        width: 200px;
+    }
+    .project_title p{
+        color: rgba(0,0,0,0.35);
+        font-family: 'RF Tone';
+        font-size: 12px;
+        border-bottom: 1px solid gainsboro;
+        transform: translateY(5px);
+    }
+    
 }
 
 
@@ -745,12 +735,15 @@ form div img{
 
  
 
- @media (max-width:806px){
+ @media (max-width:880px){
+     .catalog_inline{
+         display: inline;
+         flex-direction: column;
+     }
     .form_block_inline{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        flex-direction: column;
     }
     .work_title{
         text-align: center;
@@ -764,28 +757,148 @@ form div img{
     .work_title p{
         font-size: 20px;
     }
- }
-
- @media (max-width:684px){
-    .project_title{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
+    .catalog_first_card div {
+        width: 100% !important;
     }
- }
 
-
-
-@media  (max-width:544px) {
-    .form_button button{
-        margin-left: 0;
+    .catalog_first_card{
         width: 100%;
     }
-    .form_button{
+ }
+
+ 
+
+ 
+
+
+
+
+
+@media (max-width:997px)
+{
+    .catalog_title_inline{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:877px){
+    .catalog_right_block{
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        align-items: center;
+        width: 100%;
+    
+    }
+
+    .catalog_right_block div{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:799px){
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media  (max-width:675px) {
+    .catalog_parent{
+        width: 90%;
+    }
+    .catalog_first_card div{
+        text-align: left;
         width: 80%;
         margin: auto;
     }
+    .catalog_right_block{
+        margin-top: 20px;
+    }
+    .catalog_right_block div{
+        width: 80%;
+        margin:0px auto;
+    }
+}   
+
+
+@media  (max-width:588px) {
+    .catalog_right_block{
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        width: 100%;
+        flex-direction: column;
+    }
+
+   .catalog_title{
+       margin-top: 150px;
+   }
+   .catalog_right_block div{
+    width: 100%;
+    margin:0px auto;
+    text-align: left;
+}
+
+.project_title{
+    flex-direction: column;
+}
+}
+
+
+
+
+
+@media  (max-width:648px) {
+    .form_block_inline{
+        flex-direction: column;
+    }
+}
+
+@media  (max-width:500px) {
+    .work_banner .form_button {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+
+    }
+    
+    .form_button button{
+        width: 80%;
+        height: 55px;
+        font-family: 'RF Tone';
+        border:0;
+        background: black;
+        font-weight: 700;
+        color: white;
+        font-size: 19px;
+        margin-left: 0;
+        margin-bottom: 47px;
+    }
+    
+    
+}
+@media  (max-width:436px) {
+    .work_title h2{
+        font-size: 32px;
+    }   
+    
+}
+
+@media  (max-width:430px) {
+    .card img{
+        width: 80%;
+    }
+
+    
 }
 
 
@@ -793,67 +906,58 @@ form div img{
 
 
 
- @media  (max-width:457px){
-    form div input{
-        background: none;
-        border:0;
-        border-bottom: 2px solid gray;
-        padding: 15px 0;
-        font-size: 25px;
-        outline: none;
-        margin: 10px 0;
-        width: 200px;
+/* Mobile */
+@media  (max-width:375px) {
+    .catalog_title{
+        margin-top: 400px;
+    }
+    .catalog_title p{
+        font-size: 35px;
     }
 
-
-
-    .form_block_center{
+    .card img{
         width: 100%;
-        margin: auto;
+    }
+    .work_title p{
+        font-size: 15px;
+    }
+    .form div input{
+        width: 300px !important;
+        font-size: 18px;
     }
 
-    .form_button{
-        width: 90%;
-        margin: auto;
+    .form_right_block span{
+        font-size: 15px;
     }
-    .form_button button{
-        width: 100%;
-        padding: 15px 0; 
-        background: black;
-        color: white;
-        font-size: 23px;
-    }    
- }
 
- @media (max-width:369px){
-    .form_right_block div ul li span{
-        margin: 0px 2px;
-    }
     
- }
+
+.form_right_block div ul li {
+    font-size: 16px;
+    width: 100%;
+    margin: 20px 0;
+    font-weight: 300;
+    line-height: 28.8px;
+    display: flex;
+}
+.form_right_block div ul{
+    padding-left: 0;
+}
+.form_right_block div ul li span{
+    margin: 0px 5px;
+}
+.project_banner{
+    margin-top: 20px;
+}
+
+.project_title h2{
+    font-size: 35px;
+}
+
+.project_title p{
+    font-size: 13px;
+}
 
 
- @media (max-width:320px){
-    .work_title h2{
-        font-size: 25px;
-    }
 
-    .form_button button{
-        width: 100%;
-        padding: 15px 0; 
-        background: black;
-        color: white;
-        font-size: 18px;
-    }    
-
-    .form_right_block div ul li {
-        font-size: 18px;
-        width: 100%;
-        margin: 15px 0;
-        display: flex;
-    }
-
- }
-
-
-     
+}

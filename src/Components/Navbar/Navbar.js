@@ -16,7 +16,10 @@ const Navbar = () =>{
                             <li>
                                 <Link to="/"><img src={Logo}/></Link>
                             </li>
-                            <li className={cls.navbar_logo_item}>
+                            
+                        </ul>
+                        <ul className={cls.navbar_logo_item}>
+                             <li >
                                 Профессиональные световые решения.
                             </li>
                         </ul>
@@ -50,7 +53,7 @@ const Navbar = () =>{
                             </li>
                             <li>
                                 <Link to="" >
-                                    <img src={Bars}/>
+                                    <img src={Bars} className={cls.burger}/>
                                 </Link>
                             </li>
                         </ul>
