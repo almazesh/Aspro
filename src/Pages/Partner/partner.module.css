@@ -1,9 +1,9 @@
 @import url('../../assets/Fonts/stylesheet.css');
 
 .partner_title{
-    width: 90%;
+    width: 92%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .partner_title h1{
@@ -16,7 +16,7 @@
 }
 
 .partner_title p{
-    font-size: 25px;
+    font-size: 18px !important;
     font-weight: 100;
 }
 
@@ -185,18 +185,18 @@
 
 
     .work_title h2{
-        font-size: 32px;
+        font-size: 35px;
         padding-top: 40px;
         font-weight: normal;
     }
     
     .work_title p{
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
         margin-top: 20px;
     }
     .partner_title h1{
-        font-size: 32px;
+        font-size: 36px;
         font-weight: 500;
     }
     
@@ -215,17 +215,17 @@
 
 
     
-.partner_btn{
-    width: 350px;
-    padding: 15px 0;
-    background: black;
-    border:0;
-    font-size:19px;
-    font-family: 'RF Tone';
-    font-weight: 600;
-    color: white;
-    margin-top: 20px;
-}
+    .partner_btn{
+        width: 350px;
+        padding: 15px 0;
+        background: black;
+        border:0;
+        font-size:19px;
+        font-family: 'RF Tone';
+        font-weight: 600;
+        color: white;
+        margin-top: 20px;
+    }
 
 
 .partner_advise{
@@ -256,7 +256,7 @@
     border:0;
     border-bottom: 1px solid rgba(  0,0,0,0.6);
     padding: 10px 0;
-    font-size: 13px !important;
+    font-size: 17px !important;
     font-weight: 265;
     outline: none;
     margin: 0px 0;
@@ -268,7 +268,7 @@
     color: rgba(0,0,0,0.6);
     border-bottom: 1px solid rgba(0,0,0,0.6);
     padding: 13px 0;
-    font-size: 13px !important;
+    font-size: 17px !important;
     outline: none;
     font-weight: 265;
     font-family: 'RF Tone';

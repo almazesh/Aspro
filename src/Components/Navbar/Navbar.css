@@ -237,3 +237,100 @@ ul{
         margin-right: 5px;
     }
 }
+
+
+
+
+
+@media  (max-width:320px) and (max-height:497px) {
+    .navbar_right_icons{
+        display: flex;
+        margin-left: auto;
+        width:100px;
+        justify-content: space-between;
+        transform: translateY(5px);
+    }
+    .navbar_logo{
+        width: 150px;
+        margin-right: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Sidebar */
+
+.side_banner{
+    background: #252625;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    right: 0;
+}
+
+.side_banner.active{
+    display: block;
+}
+
+
+
+.side_logo_inline{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.side_logo_inline img{
+    width: 250px;
+    height: 50px;
+}
+.side_logo_inline span{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-weight: 50;
+}
+.side_body{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.side_list{
+    margin-top: 50px;
+}
+
+.side_list li a{
+    color: white !important;
+    font-size: 25px;
+    font-weight: 400 !important;
+}
+
+.side_list li{
+    list-style: none;
+    margin: 5px 0;
+}
+
+.side_list p a{
+    color: white;
+    font-weight: 100;
+    font-size: 17px;
+    
+}
+.side_list p{
+    line-height: 9px;
+}
+.side_order{
+    margin-top: 50px;
+}

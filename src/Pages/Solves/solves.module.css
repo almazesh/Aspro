@@ -43,104 +43,23 @@ a{
 
 
 
+@media  (max-width:1446px) and (max-height:760px) {
+    .solve_title p{
+        font-size:36px !important;
+    
+    }
 
-
-
-
-
-.work_banner{
-    background: #f2f2f2;
-    height: 100%;
-    margin-top: 100px;
+    .solve_banner{
+        width: 90%;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .solve_card img{
+        width: 285px !important;
+        height:245px !important;
+    }
+    
 }
-
-.work_padding{
-    padding: 50px 0;
-}
-
-.work_title{
-    text-align: center;
-    padding: 50px;
-}
-
-.work_title h2{
-    font-size: 52px;
-    font-weight: normal;
-}
-
-.work_title p{
-    font-size: 26px;
-    font-weight: 300;
-}
-.form_block_inline{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-form div input{
-    background: none;
-    border:0;
-    border-bottom: 2px solid gray;
-    padding: 15px 0;
-    font-size: 24px;
-    outline: none;
-    margin: 10px 0;
-    width: 400px;
-}
-form div{
-    position: relative;
-}
-
-form div i{
-    position: absolute;
-    right: 5%;
-    top: 40%;
-}
-
-.work_banner .form_button {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 120px;
-
-}
-
-.form_button button{
-    width: 400px;
-    padding: 15px 0; 
-    background: black;
-    color: white;
-    font-size: 24px;
-}
-
-
-
-
-.form_right_block div ul li {
-    font-size: 24px;
-    width: 100%;
-    margin: 15px 0;
-    display: flex;
-    font-weight: 300;
-}
-
-.form_right_block div ul li span{
-    margin: 0px 20px;
-}
-
-
-
-.form_block_center{
-    width: 80%;
-    margin: auto;
-}
-
-
-
-
-
-
 
 
 
@@ -156,8 +75,8 @@ form div i{
     }
   
     .solve_card img{
-        width: 370px;
-        height: 370px;
+        width: 350px;
+        height: 350px;
     }
     
     
@@ -176,118 +95,39 @@ form div i{
     
 }
 
-@media  (max-width:1460px) and (max-height:1000px) {
-    
+    @media  (max-width:1460px) and (max-height:1000px) {
+        
+        .solve_card img{
+            width: 270px;
+            height: 250px;
+        }
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:631px) {
+    .solve_inline{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
     .solve_card img{
-        width: 270px;
-        height: 250px;
+        width: 100% !important;
+        height: 300px !important;
     }
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:806px){
-    .form_block_inline{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-    }
-    .work_title{
-        text-align: center;
-        padding: 50px;
-    }
-    
-    .work_title h2{
-        font-size: 35px;
-    }
-    
-    .work_title p{
-        font-size: 20px;
-    }
- }
-
- @media (max-width:684px){
-    .project_title{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-    }
- }
-
-
- @media (max-width:438px){
-    form div input{
-        background: none;
-        border:0;
-        border-bottom: 2px solid gray;
-        padding: 15px 0;
-        font-size: 25px;
-        outline: none;
-        margin: 10px 0;
-        width: 100%;
-    }
-
-
-
-    .form_block_center{
-        width: 100%;
-        margin: auto;
-    }
-
-    .form_button{
-        width: 90%;
-        margin: auto;
-    }
-    .form_button button{
-        width: 100%;
-        padding: 15px 0; 
-        background: black;
-        color: white;
-        font-size: 23px;
-    }    
- }
-
- @media (max-width:369px){
-    .form_right_block div ul li span{
-        margin: 0px 2px;
-    }
-    
- }
-
-
- @media (max-width:320px){
-    .work_title h2{
-        font-size: 25px;
-    }
-
-    .form_button button{
-        width: 100%;
-        padding: 15px 0; 
-        background: black;
-        color: white;
-        font-size: 18px;
-    }    
-
-    .form_right_block div ul li {
-        font-size: 18px;
-        width: 100%;
-        margin: 15px 0;
-        display: flex;
-    }
-
- }

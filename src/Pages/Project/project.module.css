@@ -21,6 +21,7 @@
 
 .project_menu_inline{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -131,6 +132,48 @@
     .card img{
         width: 330px;
         height: 330px;
+    }
+    
+}
+
+
+
+
+
+@media  (max-width:375px)  {
+    .project_title p{
+        font-size: 32px;
+    }
+
+    .project_title{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .project_menu_banner{
+        width: 100%;
+        margin: auto;
+        margin-top: 100px;
+    
+    }
+
+    .project_menu_inline{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .project_menu_inline li{
+        margin: 10px 0;
+    }
+
+
+
+    .project_inline_card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     
 }
