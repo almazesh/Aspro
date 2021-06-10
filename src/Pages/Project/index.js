@@ -4,6 +4,7 @@ import Third from '../../assets/Slider/3.png'
 import Second from '../../assets/Slider/2.png'
 import Four from '../../assets/Slider/4.png'
 import Form from '../../Components/form/form'
+import {Link} from 'react-router-dom'
 const Project = () =>{
     return (
         <>
@@ -42,17 +43,19 @@ const Project = () =>{
 
             <div className={cls.project_banner_card}>
                 <div className={cls.project_inline_card}>
-                    <div className={cls.card}>
-                        <img src={Four}/>
-                        <div>
-                            <h2>
-                                Офис HTML Academy
-                            </h2>
-                            <p>
-                                Москва Сретенский 6-р.д 1
-                            </p>
-                        </div>
-                    </div>  
+                    <Link to="/singleProject">
+                        <div className={cls.card}>
+                            <img src={Four}/>
+                            <div>
+                                <h2>
+                                    Офис HTML Academy
+                                </h2>
+                                <p>
+                                    Москва Сретенский 6-р.д 1
+                                </p>
+                            </div>
+                        </div>  
+                    </Link>
                     <div className={cls.card}>
                         <img src={Third}/>
                         <div>

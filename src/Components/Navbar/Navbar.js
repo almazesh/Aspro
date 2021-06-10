@@ -86,7 +86,7 @@ const Navbar = () =>{
                                 </Link>
                             </li>
                             <li>
-                                <Link to="" >
+                                <Link to="#" >
                                     <img src={Bars} className='burger' onClick={showSideBar}/>
                                 </Link>
                             </li>

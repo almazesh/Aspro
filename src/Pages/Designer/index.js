@@ -2,6 +2,8 @@ import cls from './designer.module.css'
 import FirstMan from '../../assets/Designer/firstMan.jpg'
 import SecondMan from '../../assets/Designer/secondMan.jpg'
 import ThirdMan from '../../assets/Designer/thirdMan.jpg'
+import Clip from '../../assets/Solve/paperclip.png'
+import {Link} from 'react-router-dom'
 const Designer = () =>{
     return (
         <>
@@ -17,14 +19,16 @@ const Designer = () =>{
 
             <div className={cls.designer_banner}>
                 <div className={cls.designer_inline}>
-                      <div className={cls.designer_card}>
-                            <img src={FirstMan}/>
-                            <h2>Максим Турский</h2>
-                            <p>Графический дизайнер</p>
-                            <div>
-                                <button>Подробнее</button>
-                            </div>
-                      </div>  
+                      <Link to="/single-designer">
+                        <div className={cls.designer_card}>
+                                <img src={FirstMan}/>
+                                <h2>Максим Турский</h2>
+                                <p>Графический дизайнер</p>
+                                <div>
+                                    <button>Подробнее</button>
+                                </div>
+                        </div>  
+                      </Link>
                       <div className={cls.designer_card}>
                           <img src={SecondMan}/>
                           <h2>Ольга Киреева</h2>
@@ -54,18 +58,18 @@ const Designer = () =>{
                     <div className={cls.form_block_center}>
                         <div className={cls.form_block_inline}>
                             <div className={cls.form_left_block}>
-                                <form>
+                                <form className={cls.form_partner}>
                                     <div>
                                         <input type="text" placeholder="Телефон"/>
                                     </div>
                                     <div>
                                         <input type="text" placeholder="Комментарий"/>
-                                        <i className="fa fa-user"></i>
+                                        <img src={Clip}/>
                                     </div>
                                 </form>
                             </div>
                             <div className={cls.form_right_block}>
-                            <form>
+                            <form className={cls.form_partner}>
                                     <div>
                                         <input type="text" placeholder="Телефон"/>
                                     </div>

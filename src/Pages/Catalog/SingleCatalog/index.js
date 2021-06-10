@@ -4,13 +4,14 @@ import Ring from '../../../assets/lights/ring.jpg'
 import Circle from '../../../assets/lights/Circle.jpg'
 import ManyUgol from '../../../assets/lights/Many.jpg'
 import X from '../../../assets/lights/X.jpg'
-
+import {Link} from 'react-router-dom'
+import Clip from '../../../assets/Solve/paperclip.png'
 const singleCatalog = () =>{
     return (
         <>
             <div className={cls.catalog_title}>
                 <p className={cls.title}>Квадратные светильники</p>
-                <p className={cls.square}>Каталог светильников "" Квадратные светильники</p>
+                <p className={cls.square}>Каталог светильников {'>'} Квадратные светильники</p>
             </div>
             <div className={cls.catalog_banner}>
                 <div className={cls.catalog_select_inline}>
@@ -39,19 +40,21 @@ const singleCatalog = () =>{
 
             <div className={cls.cards_parent}>
                 <div className={cls.cards_inline}>
-                    <div className={cls.card}>
-                        <img src={Linear}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                Прямоугольные <br /> светильники
-                            </p>
+                    <Link to="/single-product">
+                        <div className={cls.card}>
+                            <img src={Linear}/>
+                            <div className={cls.card_title}>
+                                <p>
+                                aspro prymou
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                     <div className={cls.card}>
                         <img src={Ring}/>
                         <div className={cls.card_title}>
                             <p>
-                                Кольцевые <br /> светильники
+                                aspro ringo
                             </p>
                         </div>
                     </div>
@@ -59,7 +62,7 @@ const singleCatalog = () =>{
                         <img src={Circle}/>
                         <div className={cls.card_title}>
                             <p>
-                                Круглые <br /> светильники
+                                aspro ellipse
                             </p>
                         </div>
                     </div>
@@ -67,7 +70,7 @@ const singleCatalog = () =>{
                         <img src={ManyUgol}/>
                         <div className={cls.card_title}>
                             <p>
-                                Многоугольные <br /> светильники
+                                aspro fellipse
                             </p>
                         </div>
                     </div>
@@ -75,7 +78,7 @@ const singleCatalog = () =>{
                         <img src={X}/>
                         <div className={cls.card_title}>
                             <p>
-                                Фигурные <br /> светильники
+                                aspro figgro
                             </p>
                         </div>
                     </div>
@@ -83,7 +86,7 @@ const singleCatalog = () =>{
                         <img src={Circle}/>
                         <div className={cls.card_title}>
                             <p>
-                                Круглые <br /> светильники
+                                aspro ellipse
                             </p>
                         </div>
                     </div>
@@ -91,7 +94,7 @@ const singleCatalog = () =>{
                         <img src={ManyUgol}/>
                         <div className={cls.card_title}>
                             <p>
-                                Многоугольные <br /> светильники
+                                aspro fellipse
                             </p>
                         </div>
                     </div>
@@ -99,7 +102,7 @@ const singleCatalog = () =>{
                         <img src={X}/>
                         <div className={cls.card_title}>
                             <p>
-                                Фигурные <br /> светильники
+                                aspro figgro
                             </p>
                         </div>
                     </div>
@@ -120,13 +123,13 @@ const singleCatalog = () =>{
                     <div className={cls.form_block_center}>
                         <div className={cls.form_block_inline}>
                         <div className={cls.form_left_block}>
-                            <form>
+                            <form className={cls.form_right}>
                                 <div>
                                     <input className={cls.firstInp} type="text" placeholder="Телефон или E-mail"/>
                                 </div>
                                 <div>
                                     <input type="text" placeholder="Комментарий"/>
-                                    <i className="fa fa-user"></i>
+                                    <img src={Clip}/>
                                 </div>
                             </form>
                         </div>

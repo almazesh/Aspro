@@ -269,13 +269,216 @@
 
 
 
-/* Work banner */
+/* LAPTOP */
+
+@media   (max-width:1446px) and (max-height:760px){
+     .slider_picture1{
+        height: 570px ;
+     }
+     .slider_parent{
+         height: 570px;
+     }
+
+     .slider_picture1 .slider_title{
+         font-size:57px ;
+         transform: translateY(6px);
+     }
+
+     .slider_picture1 .slider_title_span{
+         font-size:18px;
+         font-weight: 200;
+         color: #E3E3E3;
+         transform: translateY(18px);
+     }
+
+     .swiper_button_next{
+         margin-right: 8px;
+     }
+
+     .swiper_button_prev{
+         margin-left: 8px;
+     }
+
+
+
+
+
+
+
+     /* SOlve */
+
+
+
+     .solve_banner{
+        width: 90%;
+        margin: auto;
+        margin-top: 90px;
+    
+    }
+    .solve_left{
+        width: 47%;
+    }
+    
+
+    .solve_left p{
+        font-family: 'RF Tone';
+        font-weight: 265;
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+
+
+    /* Solve Right */
+
+    
+    .solve_right_inline h2{
+        font-weight: 400;
+        margin-top:3px;
+        font-size: 18px;
+        font-family: 'RF Tone';
+        text-transform: uppercase;
+    }
+
+    .solve_right_inline p{
+        font-weight: 265;
+        font-size: 18px;
+    }
+
+
+
+    /* Solve description */
+
+    .solve_description{
+        margin-top: 95px;
+    }
+        
+    .solve_description h2{
+        font-weight: 400;
+        font-size: 38px;
+    }
+
+
+
+    .solve_description p{
+        font-weight: 300;
+        font-size: 17px;
+        width: 71% !important;
+        line-height: 18px;
+        margin-top: 50px;
+        width: 1219px;
+    }
+
+    /* Solve advise */
+
+    .solve_advise{
+        text-align: center;
+        margin-top: 115px;
+    }
+    
+    .solve_advise h2{
+        font-size: 37px;
+        font-weight: 400;
+    }
+
+
+
+
+
+
+
+    /* Cards */
+
+
+    .cards_parent{
+        width: 93%;
+        margin: auto;
+        margin-top: 55px;
+    }
+    
+    .cards_inline{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1280px;
+        align-items: center;
+    
+    }
+
+    
+    .cards_inline div{
+        margin: 20px 22px;
+    }
+
+    .card{
+        text-align: center;
+    }
+    .card img{
+        width: 210px;
+        height: 211px;
+    }
+
+
+    .card p{
+        font-size: 17px;
+        margin-top: -12px;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    /* Projects */
+
+
+
+
+    .solve_project{
+        width: 90%;
+        margin: auto;
+        margin-top: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }   
+    
+    .solve_project div{
+        width: 160px;
+    }
+    
+    .solve_project h2{
+        font-weight: 400;
+        font-size: 37px;
+    }
+    
+    .solve_project p{
+        font-weight: 400;
+        transform: translateY(10px);
+        font-size: 12px;
+        color: rgba(0,0,0,0.35);
+        border-bottom: 1px solid rgba(0,0,0,0.35);
+    }
+
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* FORM */
 
 
 .work_banner{
     background: #f2f2f2;
     height: 100%;
     margin-top:100px;
+    padding: 50px 0 !important;
 }
 
 
@@ -310,7 +513,7 @@ form div input{
     color: rgba(0,0,0,0.8) ;
     outline: none;
     margin: 10px 0;
-    width: 437px !important;
+    width: 437px ;
     font-weight: 265;
     font-family: 'RF Tone';
 }
@@ -318,7 +521,9 @@ form div{
     position: relative;
 }
 
-form div i{
+form div img{
+    width: 22px;
+    height: 24px;
     position: absolute;
     right: 5%;
     top: 40%;
@@ -339,7 +544,7 @@ form div i{
     color: white;
     font-size: 24px;
     margin-left: 80px;
-    margin-bottom: 180px;
+    margin-bottom: 47px;
 }
 
 
@@ -374,104 +579,276 @@ form div i{
 
 
 
-
-
-
-
- /* Work bammer*/ 
-
-
- 
-
- @media screen and (max-width:806px){
-    .form_block_inline{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
+@media  (max-width:1446px) and (max-height:760px) {
+    .work_banner{
+        background: #f2f2f2;
+        height: 100%;
+        margin-top:50px;
+        padding: 0px 0;
     }
+    
+    .form_button button{
+        height: 55px;
+        width: 400px;
+    }
+        
     .work_title{
         text-align: center;
-        padding: 50px;
+        padding-top: 0px;
+        transform: translateY(-5px);
     }
     
     .work_title h2{
-        font-size: 35px;
+        font-size: 37px;
+        font-weight: 400;
     }
     
     .work_title p{
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: 300;
     }
- }
 
- @media (max-width:684px){
-    .project_title{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-    }
- }
-
-
- @media (max-width:438px){
-    form div input{
+    .form div input{
         background: none;
         border:0;
-        border-bottom: 2px solid gray;
-        padding: 15px 0;
-        font-size: 25px;
+        border-bottom: 1px solid rgba(0,0,0,0.6) ;
+        padding: 18px 0 !important;
+        font-size: 18px !important;
+        color: rgba(0,0,0,0.8) ;
         outline: none;
-        margin: 10px 0;
-        width: 100%;
+        width: 300px !important;
+        font-weight: 265;
+        margin:5px 0px;
+        font-family: 'RF Tone';
     }
 
-
-
-    .form_block_center{
-        width: 100%;
-        margin: auto;
+ 
+    .form_block_inline{
+        margin-top: 15px;
+    }
+    .form img{
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 0%;
+        top: 40%;
     }
 
-    .form_button{
-        width: 90%;
-        margin: auto;
-    }
-    .form_button button{
-        width: 100%;
-        padding: 15px 0; 
-        background: black;
-        color: white;
-        font-size: 23px;
-    }    
- }
-
- @media (max-width:369px){
-    .form_right_block div ul li span{
-        margin: 0px 2px;
+    .work_banner .form_button {
+        text-align: center;
+        margin-top: 20px;
     }
     
- }
-
-
- @media (max-width:320px){
-    .work_title h2{
-        font-size: 25px;
-    }
-
     .form_button button{
-        width: 100%;
-        padding: 15px 0; 
+        width: 325px;
+        height: 55px;
+        font-family: 'RF Tone';
+        border:0;
         background: black;
+        font-weight: 700;
         color: white;
-        font-size: 18px;
-    }    
-
+        font-size:17px;
+        margin-left: 60px;
+        margin-bottom:60px;
+    }
+    
+        
     .form_right_block div ul li {
-        font-size: 18px;
+        font-size: 17px;
         width: 100%;
-        margin: 15px 0;
+        margin: 25px 0;
+        font-weight: 400;
+        line-height: 20px;
         display: flex;
     }
 
- }
+    .form_right_block div ul li span{
+        margin: 0px 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:1085px) and (max-height:570px) {
+    .work_banner{
+        background: #f2f2f2;
+        height: 100%;
+        margin-top:100px;
+        padding:20px 0;
+    }
+
+    .work_title h2{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    
+    .work_title p{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .form div input{
+        background: none;
+        border:0;
+        border-bottom: 1px solid rgba(0,0,0,0.6) ;
+        padding: 18px 0 !important;
+        font-size: 15px !important;
+        color: rgba(0,0,0,0.8) ;
+        outline: none;
+        margin: 10px 0;
+        width: 320px !important ;
+        font-weight: 265;
+        font-family: 'RF Tone';
+    }
+
+    .form_right_block div ul li {
+        font-size:17px;
+        width: 100%;
+        margin: 27px 0;
+        font-weight: 300;
+        line-height: 20.8px;
+        display: flex;
+    }
+    
+    .form_right_block div ul li span{
+        margin: 0px 18px;
+    }
+    
+    
+    
+    .form_block_center{
+        width: 95%;
+        margin: auto;
+    }
+
+
+    .work_banner .form_button {
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    .form_button button{
+        width: 355px;
+        height: 53px;
+        font-family: 'RF Tone';
+        border:0;
+        background: black;
+        font-weight: 700;
+        color: white;
+        font-size:18px;
+        margin-left: 80px;
+        margin-bottom: 47px;
+    }
+    
+}
+
+
+
+
+@media (max-width:880px){
+    
+   .form_block_inline{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }
+   .work_title{
+       text-align: center;
+       padding: 50px;
+   }
+   
+   .work_title h2{
+       font-size: 35px;
+   }
+   
+   .work_title p{
+       font-size: 20px;
+   }
+  
+}
+
+
+
+@media  (max-width:648px) {
+    .form_block_inline{
+        flex-direction: column;
+    }
+}
+
+@media  (max-width:500px) {
+    .work_banner .form_button {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+
+    }
+    
+    .form_button button{
+        width: 80%;
+        height: 55px;
+        font-family: 'RF Tone';
+        border:0;
+        background: black;
+        font-weight: 700;
+        color: white;
+        font-size: 19px;
+        margin-left: 0;
+        margin-bottom: 47px;
+    }
+    
+    
+}
+@media  (max-width:436px) {
+    .work_title h2{
+        font-size: 32px;
+    }   
+    
+}
+
+
+
+
+
+@media  (max-width:375px) {
+   
+  
+    .work_title p{
+        font-size: 15px;
+    }
+    .form div input{
+        width: 300px !important;
+        font-size: 18px;
+    }
+
+    .form_right_block span{
+        font-size: 15px;
+    }
+
+    
+
+.form_right_block div ul li {
+    font-size: 16px;
+    width: 100%;
+    margin: 20px 0;
+    font-weight: 300;
+    line-height: 28.8px;
+    display: flex;
+}
+.form_right_block div ul{
+    padding-left: 0;
+}
+.form_right_block div ul li span{
+    margin: 0px 5px;
+}
+
+
+
+}

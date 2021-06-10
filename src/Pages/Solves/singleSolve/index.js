@@ -5,6 +5,7 @@ import Circle from '../../../assets/lights/Circle.jpg'
 import ManyUgol from '../../../assets/lights/Many.jpg'
 import X from '../../../assets/lights/X.jpg'
 import SliderCard from '../../Main/SliderCard'
+import Clip from '../../../assets/Solve/paperclip.png'
 const singleSolve = () =>{
     return (
         <>
@@ -15,7 +16,7 @@ const singleSolve = () =>{
                             <div className={cls.slider_picture1}>
                                 <div>
                                     <p className={cls.slider_title}>Решения для ресторанов, <br/> кафе и баров</p>
-                                    <p className={cls.slider_title_span}>Решения "" Решения для ресторанов</p>
+                                    <p className={cls.slider_title_span}>Решения  {' > '}Решения для ресторанов</p>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +86,7 @@ const singleSolve = () =>{
                         <img src={Linear}/>
                         <div className={cls.card_title}>
                             <p>
-                                Прямоугольные <br /> светильники
+                                Aspro prymou
                             </p>
                         </div>
                     </div>
@@ -93,7 +94,7 @@ const singleSolve = () =>{
                         <img src={Ring}/>
                         <div className={cls.card_title}>
                             <p>
-                                Кольцевые <br /> светильники
+                                Aspro ringo
                             </p>
                         </div>
                     </div>
@@ -101,7 +102,7 @@ const singleSolve = () =>{
                         <img src={Circle}/>
                         <div className={cls.card_title}>
                             <p>
-                                Круглые <br /> светильники
+                                Aspro ellipse
                             </p>
                         </div>
                     </div>
@@ -109,7 +110,7 @@ const singleSolve = () =>{
                         <img src={ManyUgol}/>
                         <div className={cls.card_title}>
                             <p>
-                                Многоугольные <br /> светильники
+                                Aspro fellipse
                             </p>
                         </div>
                     </div>
@@ -117,7 +118,7 @@ const singleSolve = () =>{
                         <img src={X}/>
                         <div className={cls.card_title}>
                             <p>
-                                Фигурные <br /> светильники
+                                Aspro figgro
                             </p>
                         </div>
                     </div>
@@ -125,7 +126,7 @@ const singleSolve = () =>{
                         <img src={Circle}/>
                         <div className={cls.card_title}>
                             <p>
-                                Круглые <br /> светильники
+                                Aspro ellipse
                             </p>
                         </div>
                     </div>
@@ -133,7 +134,7 @@ const singleSolve = () =>{
                         <img src={ManyUgol}/>
                         <div className={cls.card_title}>
                             <p>
-                                Многоугольные <br /> светильники
+                                Aspro fellipse
                             </p>
                         </div>
                     </div>
@@ -141,7 +142,7 @@ const singleSolve = () =>{
                         <img src={X}/>
                         <div className={cls.card_title}>
                             <p>
-                                Фигурные <br /> светильники
+                                Aspro figgro
                             </p>
                         </div>
                     </div>
@@ -155,9 +156,7 @@ const singleSolve = () =>{
                 <h2>Проекты</h2>
                 <p>Смотреть все категории</p>
            </div>
-
            <SliderCard />
-           
            <div className={cls.work_banner}>
                 <div className={cls.work_padding}>
                     <div className={cls.work_title}>
@@ -168,13 +167,13 @@ const singleSolve = () =>{
                     <div className={cls.form_block_center}>
                         <div className={cls.form_block_inline}>
                         <div className={cls.form_left_block}>
-                            <form>
+                            <form className={cls.form}>
                                 <div>
                                     <input type="text" placeholder="Телефон или E-mail"/>
                                 </div>
                                 <div>
                                     <input type="text" placeholder="Комментарий"/>
-                                    <i className="fa fa-user"></i>
+                                    <img src={Clip}/>
                                 </div>
                             </form>
                         </div>
@@ -216,10 +215,7 @@ const singleSolve = () =>{
                     </div>
                 </div>
             </div>
-        
-            
        
-
         </>
     )
 }

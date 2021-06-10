@@ -6,6 +6,7 @@ import singleCatalog from './Pages/Catalog/SingleCatalog';
 import singleProd from './Pages/Catalog/SingleCatalog/SingleProduct';
 import Contact from './Pages/Contacts';
 import Designer from './Pages/Designer';
+import singleDesigner from './Pages/Designer/singleDesigner';
 import Main from './Pages/Main/Main';
 import singleProject from './Pages/Main/singleProject';
 import Partner from './Pages/Partner';
@@ -29,6 +30,7 @@ function App() {
                 <Route path="/single-solve" component={singleSolve}/>
                 <Route path="/single-product" component={singleProd}/>
                 <Route path="/designer-partners" component={Designer}/>
+                <Route path="/single-designer" component={singleDesigner}/>
                 <Redirect to="/"/>
             </Switch>
           <Footer/>

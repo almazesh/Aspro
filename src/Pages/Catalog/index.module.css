@@ -167,7 +167,7 @@
     .catalog_select_inline{
         display: flex;
         justify-content: space-between;
-        width: 1220px;
+        width: 100%;
     }  
 
     .catalog_title p{
@@ -222,7 +222,7 @@
     .cards_inline{
         display: flex;
         flex-wrap: wrap;
-        width: 1290px;
+        width: 103%;
         align-items: center;
 
         }
@@ -307,7 +307,7 @@
     justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
-    width: 1030px;
+    width: 100%;
     align-items: center;
 
 }

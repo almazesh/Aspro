@@ -5,7 +5,7 @@ import Circle from '../../assets/lights/Circle.jpg'
 import ManyUgol from '../../assets/lights/Many.jpg'
 import X from '../../assets/lights/X.jpg'
 import Clip from '../../assets/Solve/paperclip.png'
-
+import {Link} from 'react-router-dom'
 
 const MainCard = () =>{
     return (
@@ -38,7 +38,7 @@ const MainCard = () =>{
                     <div className={cls.catalog_title_inline}>
                         <div></div>
                         <p>Каталог светильников</p>
-                        <span>Смотреть все категории</span>
+                        <Link to="/catalog"><span>Смотреть все категории</span></Link>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@ const MainCard = () =>{
                 <div className={cls.project_title}>
                     <div></div>
                     <h2>Проекты</h2>
-                    <p>Смотреть все категории</p>
+                    <Link to="/singleProject"><p>Смотреть все категории</p></Link>
                 </div>
             </div>
        

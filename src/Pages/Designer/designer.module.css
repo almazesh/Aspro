@@ -189,97 +189,167 @@ form div i{
 /* Medida  */
 
 
+@media  (max-width:1446px) and (max-height:760px) {
+    .designer_title{
+        width: 92%;
+        margin: auto;
+        margin-top: 80px;
+    }
+    .designer_title h2{
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 62px;
+    }
+    
+    .designer_title p{
+        font-weight: 265;
+        font-size: 18px;
+        font-family: 'RF Tone';
+        line-height: 19px;
+        color: rgba(0,0,0,0.7);
+        margin-top: 37px;
+        width: 1080px;
+    }
+    
+    .designer_p{
+        margin-top: 10px !important;
+    }
 
 
-@media screen and (max-width:806px){
+
+    /* CARDS */
+
+
+    
+.designer_banner{
+    width: 92%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.designer_inline{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:unset;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.designer_card img{
+    width: 360px;
+    height: 360px;
+}
+
+.designer_card{
+    width: 360px;
+    height: 360px;
+    margin: 0;
+}       
+
+
+
+
+
+.designer_card h2{
+    margin-top: 19px;
+    font-size: 18px;
+    font-family: 'RF Tone';
+    font-weight: normal;
+    line-height: 31px;
+    margin-bottom: 0;
+}
+
+.designer_card p{
+    font-size: 15px;
+    font-weight: 265;
+    margin-top: 5px;
+
+}
+
+.designer_card button{
+    margin-top: 5px;
+    width: 200px;
+    border:0;
+    height: 40px;
+    background: black;
+    font-weight: bold;
+    font-size:14px;
+    color: white;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'RF Tone';
+}
+
+
+
+
+    /* FORM */
+
+
+
+        
+    .work_banner{
+        background: #f2f2f2;
+        height: 100%;
+        margin-top: 230px;
+    }   
+
+
+    .work_title h2{
+        font-size: 37px ;
+        padding-top: 50px;
+        font-weight: 400;
+    }
+    
+    
     .form_block_inline{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        flex-direction: column;
-    }
-    .work_title{
-        text-align: center;
-        padding: 50px;
+        margin-top: 58px;
     }
     
-    .work_title h2{
-        font-size: 35px;
-    }
     
-    .work_title p{
-        font-size: 20px;
-    }
- }
+.form_partner div input{
+    background: none;
+    border:0;
+    border-bottom: 1px solid rgba(  0,0,0,0.6);
+    padding: 15px 0;
+    font-size: 17px;
+    font-weight: 265;
+    outline: none;
+    margin: 5px 0;
+    width: 320px !important;
+}
+ .form_partner div select{
+    background: none;
+    border:0;
+    color: rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+    padding: 15px 0;
+    font-size: 17px;
+    outline: none;
+    font-weight: 265;
+    font-family: 'RF Tone';
+    margin:13px 0;
+    width: 320px;
+    transform: translateY(10px);
+}
 
- @media (max-width:684px){
-    .project_title{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
-    }
- }
+.work_banner .form_button {
+    text-align: center;
+    margin-top: 80px;
+}
 
-
- @media (max-width:438px){
-    form div input{
-        background: none;
-        border:0;
-        border-bottom: 2px solid gray;
-        padding: 15px 0;
-        font-size: 25px;
-        outline: none;
-        margin: 10px 0;
-        width: 100%;
-    }
-
-
-
-    .form_block_center{
-        width: 100%;
-        margin: auto;
-    }
-
-    .form_button{
-        width: 90%;
-        margin: auto;
-    }
-    .form_button button{
-        width: 100%;
-        padding: 15px 0; 
-        background: black;
-        color: white;
-        font-size: 23px;
-    }    
- }
-
- @media (max-width:369px){
-    .form_right_block div ul li span{
-        margin: 0px 2px;
-    }
-    
- }
-
-
- @media (max-width:320px){
-    .work_title h2{
-        font-size: 25px;
-    }
-
-    .form_button button{
-        width: 100%;
-        padding: 15px 0; 
-        background: black;
-        color: white;
-        font-size: 18px;
-    }    
-
-    .form_right_block div ul li {
-        font-size: 18px;
-        width: 100%;
-        margin: 15px 0;
-        display: flex;
-    }
-
- }
+.form_button button{
+    width: 310px;
+    border:0;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 50px;
+    font-family: 'RF Tone'; 
+    font-weight: 700;
+}
+}

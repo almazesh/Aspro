@@ -5,7 +5,7 @@ import Circle from '../../assets/lights/Circle.jpg'
 import ManyUgol from '../../assets/lights/Many.jpg'
 import X from '../../assets/lights/X.jpg'
 import Form from '../../Components/form/form';
-
+import {Link} from 'react-router-dom'
 const Katalog = () =>{
     return (
         <>
@@ -39,15 +39,17 @@ const Katalog = () =>{
 
             <div className={cls.cards_parent}>
                 <div className={cls.cards_inline}>
-                    <div className={cls.card}>
-                        <img src={Linear}/>
-                        
-                        <div className={cls.card_title}>
-                            <p>
-                                Прямоугольные <br /> светильники
-                            </p>
+                    <Link to="/singleCatalog" >
+                        <div className={cls.card}>
+                            <img src={Linear}/>
+                            
+                            <div className={cls.card_title}>
+                                <p>
+                                    Прямоугольные <br /> светильники
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                     <div className={cls.card}>
                         <img src={Ring}/>
                         <div className={cls.card_title}>

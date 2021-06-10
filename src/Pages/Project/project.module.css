@@ -22,7 +22,9 @@
 .project_menu_inline{
     display: flex;
     flex-wrap: wrap;
+    width: 1200px;
     justify-content: space-between;
+
 }
 
 
@@ -80,14 +82,18 @@
 /* Medida  */
 
 @media  (max-width:1446px) and (max-height:760px) {
+    .project_title p{
+        font-size: 36px !important;
+    
+    }
     .project_menu_inline  li{
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
     }
     .project_menu_banner{
         width: 95%;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 90px;
     
     }
     

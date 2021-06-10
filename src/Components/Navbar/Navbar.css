@@ -334,3 +334,18 @@ ul{
 .side_order{
     margin-top: 50px;
 }
+
+
+
+
+@media (max-width:375px) {
+    .side_banner{
+        background: #252625;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        z-index: 10;
+        display: none;
+        right: 0;
+    }
+}
