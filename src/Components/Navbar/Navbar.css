@@ -337,7 +337,11 @@ ul{
 
 
 
-
+@media  (max-width:500px ) {
+    .side_banner{
+        width: 100% !important;
+    }
+}
 @media (max-width:375px) {
     .side_banner{
         background: #252625;
