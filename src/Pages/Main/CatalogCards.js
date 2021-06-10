@@ -45,6 +45,7 @@ const MainCard = () =>{
 
            <div className={cls.cards_parent}>
                 <div className={cls.cards_inline}>
+                    <Link to="/catalog">
                     <div className={cls.card}>
                         <img src={Linear}/>
                         <div className={cls.card_title}>
@@ -53,6 +54,7 @@ const MainCard = () =>{
                             </p>
                         </div>
                     </div>
+                    </Link>
                     <div className={cls.card}>
                         <img src={Ring}/>
                         <div className={cls.card_title}>
