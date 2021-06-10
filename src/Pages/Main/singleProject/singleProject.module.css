@@ -472,3 +472,72 @@ form div i{
         width: 100%;
     }  
 }
+
+@media (max-width:1141px) {
+    .singleProject_inline{
+        flex-direction: column;
+    }
+    .singleProject_right{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .singleProject_right p{
+        font-weight: 265;
+        font-size: 18px;
+        margin-bottom: 52px;
+        line-height: 21px;
+    }
+
+    .singleProject_banner{
+        width: 80%;
+        margin: auto;
+        margin-top: 130px;
+    }
+    
+    .left_inline2{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .left_inline3{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .left_inline4{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left_inline5{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .left_inline6{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .left_inline7{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .left_inline8{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .singleProject_left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+
+    
+}

@@ -37,7 +37,7 @@ const Designer = () =>{
                               <button>Подробнее</button>
                           </div>
                       </div>
-                      <div className={cls.designer_card}>
+                      <div className={cls.designer_card }>
                           <img src={ThirdMan}/>
                           <h2>Татьяна Любимова</h2>
                           <p>Маркетолог</p>

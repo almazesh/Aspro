@@ -2,7 +2,7 @@ import cls from './Solve.module.css'
 import Mac from '../../assets/Solve/mac.jpg'
 import Stol from '../../assets/Solve/stol.jpg'
 import Cafe from '../../assets/Solve/cafe.jpg'
-
+import { Link } from 'react-router-dom'
 
 const Solve = () =>{
     return (
@@ -24,12 +24,14 @@ const Solve = () =>{
                     </div>
                     <div className={cls.solve_right_block}>
                         <div className={cls.solve_right_block_inline}>
-                            <div className={cls.solve_card}>
-                                <img src={Mac}/>
-                                <div>
-                                    <p>Магазины <br/> и торговые центры</p>
+                            <Link to="/solution">
+                                <div className={cls.solve_card}>
+                                    <img src={Mac}/>
+                                    <div>
+                                        <p>Магазины <br/> и торговые центры</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                             <div className={cls.solve_card}>
                                 <img src={Stol}/>
                                 <div>

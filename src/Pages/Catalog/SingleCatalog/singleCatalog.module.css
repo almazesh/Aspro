@@ -456,10 +456,7 @@ form div img{
     .form_right_block div ul{
         padding-left: 0;
     }
-    .form_right div input{
-        
-        width:100% !important;
-    }
+    
     .form_block_center{
         width: 98%;
         margin: auto;

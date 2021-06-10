@@ -3,6 +3,7 @@ import First from '../../assets/Slider/1.png'
 import Third from '../../assets/Slider/3.png'
 import Second from '../../assets/Slider/2.png'
 import Four from '../../assets/Slider/4.png'
+import { Link } from 'react-router-dom'
 
 
 const SliderCard = () =>{
@@ -12,17 +13,19 @@ const SliderCard = () =>{
                 <div className="swiper-container mySwiper1">
                     <div className="swiper-wrapper">
                         <div className="swiper-slide">
-                            <div className={cls.card}>
-                                <img src={Four}/>
-                                <div>
-                                    <h2>
-                                        Офис HTML Academy
-                                    </h2>
-                                    <p>
-                                        Москва Сретенский 6-р.д 1
-                                    </p>
+                            <Link to='/singleProject'>
+                                <div className={cls.card}>
+                                    <img src={Four}/>
+                                    <div>
+                                        <h2>
+                                            Офис HTML Academy
+                                        </h2>
+                                        <p>
+                                            Москва Сретенский 6-р.д 1
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                         <div className="swiper-slide">
                             <div className={cls.card}>
