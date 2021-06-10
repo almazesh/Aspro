@@ -342,6 +342,10 @@
         margin-top: 50px;
     } 
 
+    .cards_inline{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media  (max-width:541px) {
@@ -350,6 +354,12 @@
     }
 }
 
+
+@media  (max-width:441px) {
+    .card img{
+        width: 100%;
+    }
+}
 
 
 
