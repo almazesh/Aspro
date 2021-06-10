@@ -87,21 +87,22 @@
    
 }
 
-.slider_title{
+.slider_title1{
     color: white;
-    font-size: 80px;
+    font-size: 52px;
     text-align: center;
-    width: 1115px;
+    width: 100%;
     font-weight: 400;
     position: relative;
     margin-bottom: 10px;
 }
 
-.slider_title_span{
+.slider_title_span1{
     text-align: center;
     color: white;
-    font-weight: 300;
-    font-size: 24px;
+    font-weight: 265;
+    font-size: 17px;
+    margin-top:40px;
 }
 
 
@@ -213,14 +214,14 @@
 .cards_inline{
     display: flex;
     flex-wrap: wrap;
-    width: 1810px;
+    width: 103% !important;
     align-items: center;
 
 }
 
 
 .cards_inline div{
-    margin: 20px 30px;
+    margin: 20px 20px !important;
 }
 
 .card{
@@ -579,6 +580,31 @@ form div img{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+
+
+
+
+
+
+
+
+
 @media  (max-width:1446px) and (max-height:760px) {
     .work_banner{
         background: #f2f2f2;
@@ -684,7 +710,10 @@ form div img{
         margin-top:100px;
         padding:20px 0;
     }
-
+    .cards_inline{
+        justify-content: center;
+        align-items: center;
+    }
     .work_title h2{
         font-size: 32px;
         font-weight: 400;
@@ -750,7 +779,40 @@ form div img{
 }
 
 
+@media  (max-width:914px) {
+    .solve_inline{
+        flex-direction: column;
+    }
+    .solve_left{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
 
+    .slider_title1{
+        color: white;
+        font-size: 40px !important;
+        text-align: center;
+        width: 1115px;
+        font-weight: 400;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    
+    .slider_title_span1{
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        margin-top: 10px;
+        font-size: 20px !important;
+    }
+    
+
+    .solve_right_inline{
+        justify-content: center;
+    }
+}
 
 @media (max-width:880px){
     
@@ -775,10 +837,64 @@ form div img{
 }
 
 
+@media (max-width:717px) {
+    
+.solve_right_inline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.solve_right_inline div{
+    text-align: center;
+    width: 100%;
+}
+
+.solve_right_inline h2{
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'RF Tone';
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.solve_right_inline p{
+    font-weight: 265;
+    font-size: 14px;
+}
+
+.slider_title1{
+    font-size:32px !important;
+}
+
+.slider_title_span1{
+    font-size:17px !important;
+}
+}
+
+
+
+@media  (max-width:560px) {
+    .solve_project{
+        flex-direction: column;
+    } 
+}
+
+
+@media  (max-width:515px) {
+    .card img{
+        width: 100%;
+    }
+}
+
 
 @media  (max-width:648px) {
     .form_block_inline{
         flex-direction: column;
+    }
+    .solve_description .solve_text{
+        width: 100% !important;
     }
 }
 
@@ -814,11 +930,28 @@ form div img{
 }
 
 
+@media  (max-width:420px) {
+    .slider_title1{
+        font-size:23px !important;
 
 
+    }
+    .slider_parent{
+        height: 370px;
+    }
+
+    .slider_picture1{
+        height: 370px;
+    }
+    .slider_title_span1{
+        font-size:14px !important;
+    }
+}
 
 @media  (max-width:375px) {
-   
+    .solve_left p{
+        font-size: 20px;
+    }
   
     .work_title p{
         font-size: 15px;

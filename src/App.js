@@ -1,6 +1,7 @@
 import {Route , Switch ,Redirect } from 'react-router-dom'
 import Footer from './Components/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar'
+import Bucket from './Pages/Bucket';
 import Katalog from './Pages/Catalog/index';
 import singleCatalog from './Pages/Catalog/SingleCatalog';
 import singleProd from './Pages/Catalog/SingleCatalog/SingleProduct';
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/solution" component={Solution}/>
                 <Route path="/project" component={Project}/>
                 <Route path="/partner" component={Partner}/>
+                <Route path='/bucket' component={Bucket}/>
                 <Route path="/contact" component={Contact}/>
                 <Route path="/singleCatalog" component={singleCatalog}/> 
                 <Route path="/singleProject" component={singleProject}/>

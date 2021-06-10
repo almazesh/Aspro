@@ -76,7 +76,7 @@ const Navbar = () =>{
                         </ul>
                         <ul className='navbar_right_icons'>
                             <li>
-                                <Link to="">
+                                <Link to="/bucket">
                                     <img src={Shop}/>
                                 </Link>
                             </li>

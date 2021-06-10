@@ -1,0 +1,66 @@
+@import url('../../assets/Fonts/stylesheet.css');
+
+.bucket_title{
+    width: 92%;
+    margin: auto;
+}
+
+.bucket_title h1{
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 148px;
+}
+
+.bucket_title p{
+    font-size:24px;
+    font-weight: 265;
+    width:100%;
+    color: black;
+    line-height: 28px;
+    opacity:0.7;
+
+
+    
+}
+
+.bucket_back{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.bucket_back a{
+    font-size:24px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+@media (max-width:1446px) and (max-height:760px) {
+    .bucket_title h1{
+        font-size: 42px;
+        font-weight: 400;
+        margin-top: 90px;
+    }
+    
+    .bucket_title p{
+        font-size:17px;
+        font-weight: 265;
+        width:100%;
+        color: black;
+        line-height: 20px;
+        opacity:0.7;
+    
+    }
+
+    .bucket_back{
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+    
+    .bucket_back a{
+        font-size:17px;
+        border-bottom: 1px solid gray;
+    }
+    
+}
