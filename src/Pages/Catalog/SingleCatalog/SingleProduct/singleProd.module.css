@@ -4,14 +4,14 @@
     width: 95%;
     margin: auto;
     text-align: right;
-    margin-top: 123px;
+    margin-top: 110px;
 }
 
 
 .product_title h1{
     font-weight: 400;
     font-family: 'RF Tone';
-    font-size: 52px;
+    font-size: 56px;
     margin-bottom: 0;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .product_left_inline ul{
-    width: 28%;
+    width: 24%;
 }
 
 ul h3{
@@ -66,18 +66,881 @@ ul li{
 }
 
 .product_right p{
-    font-weight: 300;
-    font-size: 26px;
+    font-weight: 400;
+    font-size: 27px;
     color: rgba(0,0,0,0.3);
+}
+
+.product_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.product_right_img{
+    margin-top: 50px;
+}
+
+.temp_inline{
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.temp_inline p{
+    font-size: 23px;
+    color: black;
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.temp_inline p span{
+    font-weight: 200;
+    font-size: 50px !important;
+}
+
+
+
+
+.product_right_docs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 235px;
+}
+
+.product_right_docs div{
+    margin-left: 90px;
+}
+
+
+.product_right_docs div img{
+    width: 185px;
+}
+
+
+.product_description{
+    margin-top: 130px;
+
+}
+
+.product_description h1{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.product_description p{
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    margin-top: 80px;
+    width: 63%;
+    line-height: 29px;
+}
+
+
+
+
+.product_oportunity{
+    margin-top: 60px;
+}
+
+.product_oportunity h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'RF Tone';
+    font-weight: 400;
+}
+
+
+.child_oportunity div{
+    display: flex;
+    align-items: center;
+}
+
+.child_oportunity div li{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.child_oportunity div p{
+    font-size: 24px;
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.technic_char{
+    margin-top: 110px;
+}
+
+.technic_char h1{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.technic_inline{
+    display: flex;
+    margin-top: 80px;
+}
+
+.technic_inline ul{
+    padding-left: 0;
+}
+
+
+.left_tech li{
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.right_tech{
+    margin-left: 150px;
+
+}
+
+.right_tech li{
+    color: black;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+
+
+.product_project_title_inline{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.product_project_title_inline div{
+    width: 220px;
+}
+
+.product_project_title_inline h1{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.product_project_title_inline p{
+    font-size: 19px;
     transform: translateY(10px);
+    font-weight: 265;
+    color: gray;
+    border-bottom: 1px solid gray;
 }
 
 
 
 
-.product_right_slider_parent{
-    position: relative;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Work banner */
+
+
+.work_banner{
+    background: #f2f2f2;
     height: 100%;
+    margin-top: 100px;
 }
 
+.work_padding{
+    padding: 50px 0;
+}
+
+.work_title{
+    text-align: center;
+    padding: 50px;
+}
+
+.work_title h2{
+    font-size: 52px;
+    font-weight: normal;
+}
+
+.work_title p{
+    font-size: 26px;
+    font-weight: 300;
+}
+.form_block_inline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+form div input{
+    background: none;
+    border:0;
+    border-bottom: 2px solid gray;
+    padding: 15px 0;
+    font-size: 24px;
+    outline: none;
+    margin: 10px 0;
+    width: 400px;
+}
+
+
+form div{
+    position: relative;
+}
+
+form div img{
+    width: 14px;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+
+.work_banner .form_button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.form_button button{
+    width: 400px;
+    padding: 18px 0; 
+    background: black;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 120px;
+    font-family: 'RF Tone'; 
+
+}
+
+
+
+
+.form_right_block div ul li {
+    font-size: 24px;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.form_right_block div ul li span{
+    margin: 0px 20px;
+}
+
+
+
+.form_block_center{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+
+
+@media (max-width:1446px) and (max-height:760px) {
+    
+    .product_title h1{
+        font-weight: 400;
+        font-family: 'RF Tone';
+        font-size: 37px;
+        margin-bottom: 0;
+    }
+    .product_title{
+        width: 95%;
+        margin: auto;
+        text-align: right;
+        margin-top: 70px;
+    }
+    
+    .product_left{
+        width: 54%;
+    }
+
+    .product_left_inline{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .product_left_inline ul{
+        width: 22%;
+    }
+    
+    .product_banner{
+        width: 95%;
+        margin: auto;
+    }
+
+    ul h3{
+        font-family: 'RF Tone';
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    ul li input{
+        width: 18px;
+        height: 18px;
+        margin-right: 18px;
+    }
+
+    ul li label{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .product_right p{
+        font-weight: 400;
+        font-size: 19px;
+        color: rgba(0,0,0,0.3);
+    }
+    
+    .product_right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .product_right_img{
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .product_right_img img{
+        width: 690px;
+    }
+
+
+    .temp_inline{
+        width: 80%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+    .temp_inline p{
+        font-size: 16px;
+        color: black;
+        opacity: 0.3;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+    }
+    
+    .temp_inline p span{
+        font-weight: 200;
+        font-size: 30px !important;
+    }
+    
+
+    
+    .product_right_docs{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 235px;
+    }
+
+    .product_right_docs div{
+        margin-left: 70px;
+    }
+
+
+    .product_right_docs div img{
+        width: 120px;
+    }
+  
+    .product_description{
+        margin-top: 130px;
+
+    }
+
+    .product_description h1{
+        font-size: 37px;
+        font-weight: 400;
+    }
+
+    .product_description p{
+        font-size: 16px;
+        font-weight: 300;
+        color: rgba(0,0,0,0.7);
+        margin-top: 60px;
+        width: 63%;
+        line-height: 20px;
+    }
+
+
+
+    
+.product_oportunity{
+    margin-top: 60px;
+}
+
+.product_oportunity h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'RF Tone';
+    font-weight: 400;
+}
+
+
+.child_oportunity div{
+    display: flex;
+    align-items: center;
+}
+
+.child_oportunity div li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+
+.child_oportunity div p{
+    font-size: 18px;
+    margin: 7px 0;
+    font-weight: 300;
+}
+
+.technic_char{
+    margin-top: 110px;
+}
+
+.technic_char h1{
+    font-size: 37px;
+    font-weight: 400;
+}
+
+
+
+
+
+.technic_inline{
+    display: flex;
+    margin-top: 50px;
+}
+
+.technic_inline ul{
+    padding-left: 0;
+}
+
+
+.left_tech li{
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.right_tech{
+    margin-left: 100px;
+
+}
+
+.right_tech li{
+    color: black;
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+.product_project_title_inline{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.product_project_title_inline div{
+    width: 220px;
+}
+
+.product_project_title_inline h1{
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.product_project_title_inline p{
+    font-size: 12px;
+    transform: translateY(10px);
+    font-weight: 265;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+
+    
+
+    /* FORM */
+    
+    .work_padding{
+        padding: 0px 0;
+    }
+
+    .work_title{
+        text-align: center;
+        padding: 28px;
+    }
+
+    .work_title h2{
+        font-size:37px;
+        font-weight: normal;
+    }
+
+    
+    .work_title p{
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .form_block_inline{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .form_right div input{
+        background: none;
+        border:0;
+        border-bottom: 1px solid gray;
+        padding: 15px 0;
+        font-size: 17px;
+        outline: none;
+        margin: 0px 0;
+        width: 320px !important;
+    }
+
+
+
+    .form_right_block div ul li {
+        font-size: 17px;
+        width: 100%;
+        margin: 22px 0;
+        display: flex;
+        line-height: 20px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+    .form_right_block div ul li span{
+        margin: 0px 15px;
+    }
+    
+    .form_block_center{
+        width: 85%;
+        margin: auto;
+    }
+    
+    
+    
+    .work_banner .form_button {
+        text-align: center;
+        margin-top: 33px;
+    }
+
+    .form_button button{
+        width: 325px;
+        padding: 15px 0; 
+        background: black;
+        border:0;
+        color: white;
+        font-size: 18px;
+        margin-bottom: 90px;
+        font-family: 'RF Tone'; 
+    }
+    form div img{
+        width: 16px !important;
+        height: 16px !important;
+        position: absolute;
+        right: 5%;
+        top: 40%;
+    }
+
+
+    .work_banner{
+        background: #f2f2f2;
+        height: 100%;
+        margin-top: 0px;
+    }
+        
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+
+
+
+@media  (max-width:1206px) {
+    .product_left{
+        width: 34%;
+    }
+}
+
+
+@media  (max-width:1120px) {
+    .product_inline{
+        flex-direction: column-reverse;
+    }
+    .product_right{
+        width: 100%;
+    }
+    .product_left{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .product_left_inline{
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .product_right_docs{
+        margin-top: 50px;
+    }
+
+
+    .product_left_inline ul{
+        width:15%;
+    }
+}
+
+
+
+
+@media  (max-width:768px) {
+    .form_block_center{
+        width: 90%;
+        margin: auto;
+    }
+    .form_block_inline{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column  ;
+    }
+    .work_title h2{
+        font-size: 32px;
+    }
+}
+
+
+
+@media  (max-width:733px) {
+    .product_right_img img{
+        width: 100%;
+    }
+}
+
+@media  (max-width:605px) {
+    .product_title h1{
+        font-weight: 400;
+        font-family: 'RF Tone';
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .product_right p{
+        font-weight: 400;
+        font-size: 15px;
+        color: rgba(0,0,0,0.3);
+    }
+    .product_right_img img{
+        width: 100% !important;
+    }
+  
+    .product_project_title_inline{
+        flex-direction: column;
+    }
+    .product_right_img img{
+        width: 400px !important;
+    }
+
+}
+
+
+
+@media  (max-width:535px) {
+
+    .product_description h1{
+        font-size:28px;
+    }
+
+    .product_description p{
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .product_oportunity h1{
+        font-size:20px ;
+    }
+
+    .technic_char h1{
+        font-size: 23px;
+    }
+    .product_right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100% !important;
+    }
+    .product_right_img{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .product_title{
+        width: 95%;
+        margin: auto;
+        text-align:left;
+        margin-top: 110px;
+    }
+    
+    
+    .product_title h1{
+        font-weight: 400;
+        font-family: 'RF Tone';
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    
+    .product_right_docs{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .product_right_docs div{
+        margin-left: 20px;
+    }
+
+}
+
+
+
+@media  (max-width:446px) {
+    .work_title h2{
+        font-size: 24px;
+    }
+    
+    .form_right_block div ul{
+        padding-left: 0;
+    }
+    
+    .form_block_center{
+        width: 98%;
+        margin: auto;
+    }
+    .product_right_docs div{
+        margin-left:20px;
+    }
+
+    .product_right_docs div img{
+        width: 100px;
+    }
+    .product_left_inline ul{
+        width: 28%;
+    }
+    
+    .right_tech{
+        margin-left: 5px;
+    }
+}
+
+
+
+@media  (max-width:414px) {
+    .product_right_img img{
+        width: 300px !important;
+    }
+    
+}
+
+
+@media  (max-width:393px) {
+    .product_oportunity h1{
+        font-size:18px  !important;
+        margin-bottom: 50px;
+    }
+}
+
+@media  (max-width:374px) {
+      .product_right_docs div img{
+        width: 80px;
+    }
+}
 
