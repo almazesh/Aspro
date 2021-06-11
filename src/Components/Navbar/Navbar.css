@@ -3,6 +3,7 @@
 body{
     margin: 0;
     font-family: 'RF Tone';
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -81,10 +82,206 @@ ul{
 }
 
 
+.search_block{
+    position: absolute;
+    z-index: 10;
+    display: none;
+    transition: 0.5s;
+    top: 150px;
+}
+
+.search_block div{
+    display: flex;
+    align-items: center;
+}
+.search_block.activeSearch{
+    right: 20px;
+    display: block;
+}
+.search_block div span{
+    font-size:52px;
+    padding-left: 15px;
+    color: white;
+}
+.search{
+    outline: 0;
+    width: 350px;
+    box-shadow: 2px 2px 10px black;
+    border:0;
+    padding: 15px 10px;
+    font-size:20px;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sidebar */
+
+
+/* Sidebar */
+
+.side_banner{
+    background: #252625;
+    width: 32%;
+    height: 100vh;
+    position: fixed;
+    z-index: 15;
+    display: none;
+    right: 0;
+}
+
+.side_banner.active{
+    display: block;
+}
+
+
+
+.side_logo_inline{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.side_logo_inline img{
+    width: 350px;
+    height: 67px;
+}
+.side_logo_inline span{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-weight: 50;
+}
+.side_body{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.side_list{
+    margin-top: 50px;
+}
+
+.side_list li a{
+    color: white !important;
+    font-size: 34px;
+    font-weight: 400 !important;
+}
+
+.side_list li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.side_order p a{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+.side_order p{
+    line-height: 9px;
+}
+.side_order{
+    margin-top: 50px;
+}
+
+.get_price{
+    margin-top: 100px;
+}
+
+.get_price h1{
+    color: white;
+    font-size:30px;
+    font-weight: 400;
+}
+
+.form_nav{
+    margin-top: 10px;
+}
+
+.form_nav input{
+    width: 220px;
+    padding: 10px 5px;
+    font-size:20px;
+    font-weight: 300;
+    background: none;
+    color: white;
+    border:0;
+    outline: 0;
+    border-bottom: 1px solid gainsboro;
+}
+.form_nav{
+    display: flex;
+    align-items:flex-end;
+}
+
+.form_nav button{
+    font-size:18px;
+    font-weight: 300;
+    background: none;
+    border:0;
+    outline: 0;
+    border-bottom: 1px solid gainsboro;
+    color: white;
+    margin-left: 40px;
+}
+
+.social_inner{
+    display: flex;
+    transform: translateX(-20px);
+    margin-top: 50px;
+}
+
+.social_inner a i{
+    font-size:30px;
+    color: white;
+    margin: 0 20px;
+}
+
+
+.side_addres{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.side_addres p{
+    color: white;
+    font-size:18px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.side_email{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-top: 50px;
+    font-size:22px;
+    font-weight: 300;
+}
+
+.side_inline_list{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -102,7 +299,14 @@ ul{
         position: relative;
         justify-content: center;
     }
-
+    .search_block{
+        position: absolute;
+        z-index: 10;
+        display: none;
+        transition: 0.5s;
+        top: 100px;
+    }
+    
     .navbar_logo li img{
         width: 210px;
         height: 42px;
@@ -160,7 +364,128 @@ ul{
     }
 
 
-}
+    .side_logo_inline img{
+        width: 250px;
+        height: 50px;
+    }
+
+
+
+    .side_list{
+        margin-top: 30px;
+    }
+    
+    .side_list li a{
+        color: white !important;
+        font-size: 22px;
+        font-weight: 400 !important;
+    }
+    
+    .side_list li{
+        list-style: none;
+        margin: 10px 0;
+    }
+    
+    .side_order p a{
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        font-weight: 300;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+    .get_price{
+        margin-top: 30px;
+    }
+    
+    .get_price h1{
+        color: white;
+        font-size:23px;
+        font-weight: 400;
+    }
+    
+    .form_nav{
+        margin-top: 10px;
+    }
+    
+    .form_nav input{
+        width: 220px;
+        padding: 10px 0px;
+        font-size:14px;
+        font-weight: 300;
+        background: none;
+        color: white;
+        border:0;
+        outline: 0;
+        border-bottom: 1px solid gainsboro;
+    }
+    .form_nav{
+        display: flex;
+        align-items:flex-end;
+    }
+    
+    .form_nav button{
+        font-size:12px;
+        font-weight: 300;
+        background: none;
+        border:0;
+        outline: 0;
+        border-bottom: 1px solid gainsboro;
+        color: gainsboro;
+        margin-left: 40px;
+    }
+
+
+
+
+    .social_inner{
+        display: flex;
+        transform: translateX(-15px);
+        margin-top: 30px;
+    }
+    
+    .social_inner a i{
+        font-size:20px;
+        color: white;
+        margin: 0 15px;
+    }
+    
+
+
+
+
+    .side_addres{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .side_addres p{
+        color: white;
+        font-size:12px;
+        line-height: 22px;
+        font-weight: 300;
+    }
+    .side_email{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        margin-top: 10px;
+        font-size:14px;
+        font-weight: 300;
+    }
+    
+
+}   
+
 
 
 
@@ -208,6 +533,153 @@ ul{
 
 
 }
+
+
+
+
+
+
+
+
+@media  (max-width:815px) {
+    .side_banner{
+        background: #252625;
+        width: 45%;
+        height: 100vh;
+        position: fixed;
+        z-index: 15;
+        display: none;
+        right: 0;
+    }
+    .side_logo_inline img{
+        width: 180px;
+        height: 39px;
+    }
+
+
+
+    .side_list{
+        margin-top: 30px;
+    }
+    
+    .side_list li a{
+        color: white !important;
+        font-size: 16px;
+        font-weight: 400 !important;
+    }
+    
+    .side_list li{
+        list-style: none;
+        margin: 10px 0;
+    }
+    
+    .side_order p a{
+        color: white;
+        font-weight: 400;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .side_order p{
+        line-height: 0px !important;
+    }
+    .side_order{
+        margin-top: 30px;
+    }
+
+    
+    .get_price{
+        margin-top: 10px;
+    }
+    
+    .get_price h1{
+        color: white;
+        font-size:16px;
+        font-weight: 400;
+    }
+    
+    .form_nav{
+        margin-top: 10px;
+    }
+    
+    .form_nav input{
+        width: 220px;
+        padding: 5px 0px;
+        font-size:11px;
+        font-weight: 300;
+        background: none;
+        color: white;
+        border:0;
+        outline: 0;
+        border-bottom: 1px solid gainsboro;
+    }
+    .form_nav{
+        display: flex;
+        align-items:flex-end;
+    }
+    
+    .form_nav button{
+        font-size:11px;
+        font-weight: 300;
+        background: none;
+        border:0;
+        outline: 0;
+        border-bottom: 1px solid gainsboro;
+        color: gainsboro;
+        margin-left: 40px;
+    }
+
+
+    
+    .social_inner{
+        display: flex;
+        transform: translateX(-15px);
+        margin-top: 20px;
+    }
+    
+    .social_inner a i{
+        font-size:18px;
+        color: white;
+        margin: 0 15px;
+    }
+    
+
+
+
+
+    .side_addres{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .side_addres p{
+        color: white;
+        font-size:10px;
+        line-height: 22px;
+        font-weight: 300;
+    }
+    .side_email{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        margin-top: 0px;
+        font-size:10px;
+        font-weight: 300;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -265,75 +737,7 @@ ul{
 
 
 
-/* Sidebar */
 
-.side_banner{
-    background: #252625;
-    width: 30%;
-    height: 100vh;
-    position: fixed;
-    z-index: 10;
-    display: none;
-    right: 0;
-}
-
-.side_banner.active{
-    display: block;
-}
-
-
-
-.side_logo_inline{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-
-.side_logo_inline img{
-    width: 250px;
-    height: 50px;
-}
-.side_logo_inline span{
-    color: white;
-    font-size: 50px;
-    position: absolute;
-    top: 3%;
-    right: 5%;
-    font-weight: 50;
-}
-.side_body{
-    width: 70%;
-    margin: auto;
-    margin-top: 50px;
-}
-
-.side_list{
-    margin-top: 50px;
-}
-
-.side_list li a{
-    color: white !important;
-    font-size: 25px;
-    font-weight: 400 !important;
-}
-
-.side_list li{
-    list-style: none;
-    margin: 5px 0;
-}
-
-.side_list p a{
-    color: white;
-    font-weight: 100;
-    font-size: 17px;
-    
-}
-.side_list p{
-    line-height: 9px;
-}
-.side_order{
-    margin-top: 50px;
-}
 
 
 
@@ -342,6 +746,29 @@ ul{
         width: 100% !important;
     }
 }
+
+
+
+@media  (max-width:411px) {
+    .search_block{
+        position: absolute;
+        z-index: 10;
+        right: 5px;
+        top: 100px;
+    }
+    .search{
+        width: 100%;
+        height: 45px;
+        padding: 0px 10px !important;
+    }
+    .search_block div{
+        display: flex;
+    }
+    .search_block.activeSearch{
+        display: block;
+    }
+}
+
 @media (max-width:375px) {
     .side_banner{
         background: #252625;

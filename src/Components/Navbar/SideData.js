@@ -29,3 +29,28 @@ export const secondData = [
         path:'/designer-partners',
     },
 ]
+
+
+export const NavList = [
+    {
+        title:'Каталог',
+        path:'/catalog'
+    },
+    {
+        title:'Решения',
+        path:'/solution'
+    },
+    {
+        title:'Проекты',
+        path:'/project'
+    },
+    {
+        title:'Партнерам',
+        path:'/partner'
+    },
+    {
+        title:'Контакты',
+        path:'/contact'
+    },
+
+]
