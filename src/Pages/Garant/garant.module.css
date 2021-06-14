@@ -1,0 +1,305 @@
+@import url('../../assets/Fonts/stylesheet.css');
+
+.garant_banner{
+    width: 92%;
+    margin: auto    ;
+}
+
+.garant_title{
+    margin-top: 150px;
+}
+
+.garant_title h1{
+    font-size:52px;
+    font-weight: 400;
+
+}
+
+.garant_title p{
+    width: 65%;
+    font-size:24px;
+    opacity: 0.7;
+    font-weight: 265;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+.support_title{
+    margin-top: 100px;
+}
+
+.support_title h1{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.support_title p{
+    font-size: 24px;
+    font-weight: 265;
+    opacity: 0.7;
+    width: 70%;
+}
+
+
+.support_title li{
+    font-weight: 300;
+    font-size: 26px;
+    color: black;
+    list-style: none;
+}
+
+
+
+
+/*  */
+
+
+
+
+
+.back_product{
+    margin-top: 130px;
+}
+
+.back_product h1{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.back_product p{
+    font-size: 24px;
+    font-weight: 265;
+    opacity: 0.7;
+}
+.back_product li{
+    font-weight: 300;
+    font-size: 24px;
+    list-style: none;
+    border-bottom: 1px dotted black;
+    width: 239px;
+}
+
+
+.garant_foot_text{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.garant_foot_text p{
+    width: 65%;
+    font-size: 24px;
+    font-weight: 265;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* MEDIA */
+
+
+@media  (max-width:1446px) and (max-height:760px) {
+    /* Garant */
+    .garant_title{
+        margin-top: 100px;
+    }
+    
+    .garant_title h1{
+        font-size:37px;
+        font-weight: 400;
+    
+    }
+    
+    .garant_title p{
+        width: 65%;
+        font-size:17px;
+        opacity: 0.7;
+        font-weight: 265;
+        margin-top: 30px;
+    }
+
+
+    /* Support */
+
+
+    
+
+
+.support_title{
+    margin-top: 80px;
+}
+
+.support_title h1{
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.support_title p{
+    font-size: 17px;
+    font-weight: 265;
+    opacity: 0.7;
+    width: 80%;
+}
+
+
+.support_title li{
+    font-weight: 300;
+    font-size: 17px;
+    color: black;
+    list-style: none;
+}
+
+
+
+/* Back */
+
+
+
+.back_product{
+    margin-top: 130px;
+}
+
+.back_product h1{
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.back_product p{
+    font-size: 17px;
+    font-weight: 265;
+    opacity: 0.7;
+}
+.back_product li{
+    font-weight: 300;
+    font-size: 17px;
+    list-style: none;
+    border-bottom: 1px dotted black;
+    width: 169px;
+}
+
+
+
+
+/* foot */
+
+    
+.garant_foot_text{
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+
+.garant_foot_text p{
+    width: 65%;
+    font-size: 17px;
+    font-weight: 265;
+    margin-top: 20px;
+}
+
+
+}
+
+
+
+
+
+
+@media  (max-width:375px) and (max-height:812px) {
+    
+.garant_title{
+    margin-top: 50px;
+}
+
+.garant_title h1{
+    font-size:37px;
+    font-weight: 400;
+
+}
+
+.garant_title p{
+    width: 100%;
+    font-size:17px;
+    opacity: 0.7;
+    font-weight: 265;
+    margin-top: 60px;
+}
+
+
+
+
+.support_title{
+    margin-top: 100px;
+}
+
+.support_title h1{
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.support_title p{
+    font-size: 17px;
+    margin: 50px 0;
+    font-weight: 265;
+    opacity: 0.7;
+    width: 100%;
+}
+
+
+.support_title li{
+    font-weight: 300;
+    font-size: 19px;
+    color: black;
+    list-style: none;
+}
+
+
+
+
+.back_product{
+    margin-top: 130px;
+}
+
+.back_product h1{
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.back_product p{
+    font-size: 17px;
+    font-weight: 265;
+    opacity: 0.7;
+}
+.back_product li{
+    font-weight: 300;
+    font-size: 17px;
+    list-style: none;
+    border-bottom: 1px dotted black;
+    width: 170px;
+}
+
+    
+.garant_foot_text{
+    margin-top: 50px;
+    }
+
+.garant_foot_text p{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 265;
+    margin-top: 20px;
+}
+
+
+}

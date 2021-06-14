@@ -1,0 +1,249 @@
+@import url('../../assets/Fonts/stylesheet.css');
+
+
+.blog_banner{
+    width: 92%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.blog_banner h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.blog_banner p{
+    font-size: 24px;
+    font-weight: 265;
+    opacity: 0.7;
+}
+
+.blog_two_inline{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.left_banner{
+    background: url('../../assets/Solve/cafe.jpg') center / cover;
+    width: 100%;
+    height: 500px;
+}
+.blog_left{
+    width: 48%;
+}
+.blog_right{
+    width: 48%;
+}
+
+
+.right_banner{
+    background: url('../../assets/Solve/mac.jpg') center / cover;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.blog_four_inline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 350px;
+}
+
+.blog_card{
+    width: 22%;
+}
+
+.card_one{
+    background: url('../../assets/Solve/mac.jpg') center / cover;
+    width: 100%;
+    height: 100%;
+}
+.card_two{
+    background: url('../../assets/Solve/cafe.jpg') center / cover;
+    width: 100%;
+    height: 100%;
+}
+.card_three{
+    background: url('../../assets/Solve/mac.jpg') center / cover;
+    width: 100%;
+    height: 100%;
+}
+.card_four{
+    background: url('../../assets/Solve/cafe.jpg') center / cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media  (max-width:1446px) and (max-height:760px) {
+    .blog_banner{
+        width: 92%;
+        margin: auto;
+        margin-top: 100px;
+    }
+    
+    .blog_banner h1{
+        font-size: 42px;
+        font-weight: 400;
+    }
+    
+    .blog_banner p{
+        font-size: 17px;
+        font-weight: 265;
+        opacity: 0.7;
+    }
+    
+
+    .left_banner{
+        background: url('../../assets/Solve/cafe.jpg') center / cover;
+        width: 100%;
+        height: 315px;
+    }
+    .blog_left{
+        width: 48%;
+    }
+    .blog_right{
+        width: 48%;
+    }
+    
+    
+    .right_banner{
+        background: url('../../assets/Solve/mac.jpg') center / cover;
+        width: 100%;
+        height: 315px;
+    }
+
+
+
+    
+.blog_four_inline{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-bottom: 350px;
+}
+
+.blog_card{
+    width: 23.5%;
+    height: 220px;
+}
+
+.card_one{
+    background: url('../../assets/Solve/mac.jpg') center / cover;
+    width: 100%;
+    height: 100%;
+}
+.card_two{
+    background: url('../../assets/Solve/cafe.jpg') center / cover;
+    width: 100%;
+    height: 100%;
+}
+.card_three{
+    background: url('../../assets/Solve/mac.jpg') center / cover;
+    width: 100%;
+    height: 100%;
+}
+.card_four{
+    background: url('../../assets/Solve/cafe.jpg') center / cover;
+    width: 100%;
+    height: 100%;
+}
+.blog_card p{
+    font-size: 15px !important;
+}
+
+
+.blog_four_inline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+}
+
+
+
+@media  (max-width:827px) {
+    .blog_four_inline{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+
+    .blog_card{
+        width: 48%;
+        height: 220px;
+        margin-bottom: 150px;
+    }
+}
+
+@media  (max-width:623px) {
+    .blog_two_inline{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .blog_left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .blog_right{
+        width: 100%;
+    }
+}
+
+@media  (max-width:505px) {
+    .blog_four_inline{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .blog_card{
+        width: 100%;
+        height: 220px;
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width:375px)  and (max-height:812px){
+    .left_banner{
+        background: url('../../assets/Solve/cafe.jpg') center / cover;
+        width: 100%;
+        height: 250px;
+    }
+    .blog_left{
+        width: 100%;
+    }
+    .blog_right{
+        width: 100%;
+    }
+    
+    
+    .right_banner{
+        background: url('../../assets/Solve/mac.jpg') center / cover;
+        width: 100%;
+        height: 250px;
+    }
+
+    
+    .blog_banner h1{
+        font-size: 45px;
+        font-weight: 400;
+    }
+
+    .blog_card{
+        width: 100%;
+        height: 220px;
+        margin-bottom: 300px;
+    }
+    .blog_four_inline{
+        margin-top: 50px;
+    }
+}

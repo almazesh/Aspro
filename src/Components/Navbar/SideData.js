@@ -7,26 +7,26 @@ export const sideData = [
     },
     {
         title:'О компании',
-        path:'/designer-partners',
+        path:'/company',
     },
     {
         title:'Блог',
-        path:'/designer-partners',
+        path:'/blog',
     },
     
 ]
 export const secondData = [
     {
         title:'Сервис и гарантия',
-        path:'/designer-partners',
+        path:'/garant',
     },
     {
         title:'Оплата и доставка',
-        path:'/designer-partners',
+        path:'/order-support',
     },
     {
         title:'Скачать',
-        path:'/designer-partners',
+        path:'/download',
     },
 ]
 

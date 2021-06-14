@@ -1,0 +1,366 @@
+@import url('../../assets/Fonts/stylesheet.css');
+
+.order_banner h1{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.order_banner p{
+    font-size: 24px;
+    font-weight: 265;
+    opacity: 0.7;
+
+}
+.order_banner h2{
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+.order_banner h3{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+
+
+.order_banner{
+    width: 92%;
+    margin: auto;
+}
+
+.order_title{
+    margin-top: 150px;
+}
+
+.order_title p{
+    margin-top: 60px;
+}   
+
+
+
+/* Order moscow */
+
+
+.order_moscow{
+    margin-top: 140px;
+}
+
+
+.order_moscow div:nth-child(2){
+     margin-top: 100px;
+}
+
+.order_moscow div:nth-child(3){
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/* order call */
+
+.order_call{
+    margin-top: 50px;
+}
+
+.order_call p:nth-child(3){
+    width: 95%;
+}
+
+.order_call div:nth-child(4){
+    margin-top: 50px;
+}
+
+
+
+
+/* order otheer */
+
+
+.order_other{
+    margin-top: 150px;
+}
+
+
+
+/* order steet */
+
+.order_street{
+    margin-top: 50px;
+}
+
+.order_street p{
+    margin: 5px 0;
+}
+
+
+/* order bus*/
+
+.order_bussines{
+    margin-top: 50px;
+}
+
+.order_bussines  p{ 
+    margin: 5px 0;
+}
+
+
+
+/* order terminal */
+
+
+.order_terminal{
+    margin-top: 50px;
+}
+.order_terminal p:nth-child(2){
+    width: 80%;
+}
+
+.order_terminal p:nth-child(3){
+    margin-top: 50px;
+    margin-bottom: -15px;
+}
+
+
+/* order cell */
+
+
+.order_cell{
+    margin-top: 150px;
+}
+
+
+.order_cell p{
+    margin-top: 50px;
+}
+
+
+
+
+
+/* order often */
+
+
+.order_often div{
+    margin-top: 50px;
+}
+
+.order_often div:nth-child(4) p{
+    width: 76%;
+}
+
+.order_often{
+    margin-bottom: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+
+
+@media  (max-width:1446px) and (max-height:760px) {
+    .order_banner h1{
+        font-size: 37px;
+        font-weight: 400;
+    }
+    
+    .order_banner p{
+        font-size: 17px;
+        font-weight: 265;
+        opacity: 0.7;
+    
+    }
+    .order_banner h2{
+        font-size: 25px;
+        font-weight: 300;
+        margin-top: 30px;
+    }
+    
+    .order_banner h3{
+        font-weight: 300;
+        font-size: 18px;
+    }
+    
+    
+    .order_title{
+        margin-top: 100px;
+    }
+    
+    .order_title p{
+        margin-top: 40px;
+    }   
+    
+
+
+
+
+    /* ORder moscow */
+
+
+
+    .order_moscow{
+        margin-top: 100px;
+    }
+    
+    
+    .order_moscow div:nth-child(2){
+         margin-top: 50px;
+    }
+    
+    .order_moscow div:nth-child(3){
+        margin-top: 30px;
+    }
+
+
+
+
+        
+    /* order call */
+
+    .order_call{
+        margin-top: 30px;
+    }
+
+    .order_call p:nth-child(3){
+        width: 95%;
+    }
+
+    .order_call div:nth-child(4){
+        margin-top: 30px;
+    }
+
+
+    /* order otheer */
+
+
+    .order_other{
+        margin-top: 150px;
+    }
+
+
+
+    /* order steet */
+
+    .order_street{
+        margin-top: 0px;
+    }
+
+    .order_street p{
+        margin: 5px 0;
+    }
+
+
+
+    /* order bus*/
+
+    .order_bussines{
+        margin-top: 0px;
+    }
+
+    .order_bussines  p{ 
+        margin: 5px 0;
+    }
+
+
+
+    .order_often{
+        margin-bottom: -100px;
+    }
+    
+}
+
+
+
+
+
+@media  (max-width:375px) and (max-height:812px) {
+    .order_banner h1{
+        font-size: 37px;
+        font-weight: 400;
+    }
+    
+    .order_banner p{
+        font-size: 17px;
+        font-weight: 265;
+        opacity: 0.7;
+    
+    }
+    .order_banner h2{
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 30px;
+    }
+    
+    .order_banner h3{
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+
+      
+    .order_title{
+        margin-top: 50px;
+    }
+    
+    .order_title p{
+        margin-top: 40px;
+    }   
+    
+
+    .order_moscow{
+        margin-top: 100px;
+    }
+    
+    
+    .order_moscow div:nth-child(2){
+         margin-top: 50px;
+    }
+    
+    .order_moscow div:nth-child(3){
+        margin-top: 30px;
+    }
+
+
+    
+    .order_other{
+        margin-top: 100px;
+    }
+
+
+    
+/* order cell */
+
+
+.order_cell{
+    margin-top: 100px;
+}
+
+
+.order_cell p{
+    margin-top: 50px;
+}
+
+
+.order_call p:nth-child(3){
+    width: 100%;
+}
+
+
+.order_often div:nth-child(4) p{
+    width: 100%;
+}
+}

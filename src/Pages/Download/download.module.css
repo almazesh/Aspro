@@ -1,0 +1,174 @@
+@import url('../../assets/Fonts/stylesheet.css');
+
+.download_banner{
+    margin: auto;
+    margin-top: 150px;
+    width: 92%;
+}
+
+.download_banner h1{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.download_banner p{
+    font-weight: 265;
+    font-size: 24px;
+}
+
+.download_inline{
+    margin-top: 100px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.download_inline .download_card img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.download_pocket{
+    margin-top: 100px;
+}
+
+.download_docs{
+    display: flex;
+    align-content: center;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+/* MEDIA */
+
+
+@media  (max-width:1446px) and (max-height:760px) {
+    .download_banner{
+        margin: auto;
+        margin-top: 80px;
+        width: 92%;
+    }
+    
+    .download_banner h1{
+        font-size: 45px;
+        font-weight: 400;
+    }
+    
+    .download_banner p{
+        font-weight: 265;
+        font-size: 17px;
+    }
+
+
+    
+.download_inline{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 74%;
+    justify-content: space-between;
+}
+
+.download_inline .download_card img{
+    width: 285px;
+    height: 300px;
+}
+
+
+.download_pocket{
+    margin-top: 100px;
+}
+
+.download_docs{
+    display: flex;
+    align-content: center;
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: -80px;
+}
+
+.download_pocket h1{
+    font-size: 37px ;
+}
+
+
+
+
+}
+
+
+@media  (max-width:1120px) {
+    .download_pocket img{
+        margin: 0 50px;
+    }
+}
+
+@media  (max-width:834px) {
+   .download_inline{
+    justify-content: center;
+    width: 100%;
+
+   }
+   
+   .download_pocket img{
+       margin: 0
+   }
+}
+
+@media  (max-width:618px) {
+    .download_inline .download_card img{
+        margin: 20px 0;
+    }    
+}
+
+
+@media  (max-width:537px) {
+    .download_docs{
+        flex-wrap: wrap;
+
+    }
+
+    .download_pocket img{
+        margin: 20px 0;
+    }
+}
+
+@media  (max-width:375px) and (max-height:812px) {
+    .download_banner{
+        margin: auto;
+        margin-top: 50px;
+        width: 92%;
+    }
+    
+    .download_banner h1{
+        font-size:35px;
+        font-weight: 400;
+    }
+    
+    .download_banner p{
+        font-weight: 265;
+        font-size: 17px;
+    }
+
+    .download_inline{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .download_inline .download_card img{
+        width: 100%;
+        height: 300px;
+    }
+    
+}

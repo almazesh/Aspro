@@ -5,7 +5,21 @@ import First from '../../../assets/Slider/1.png'
 import Third from '../../../assets/Slider/3.png'
 import Second from '../../../assets/Slider/2.png'
 import Four from '../../../assets/Slider/4.png'
-import Clip from '../../../assets/Solve/paperclip.png'
+import PartnerForm from '../../../Components/partnerForm';
+// const designersData = [
+//     {
+//         id: 1,
+//         name: 'Max',
+//         link: '/designers-partners/1',
+//         job: 'Граф. дизайнер',
+//         img: First
+//     },
+//     {
+//         id: 2,z
+//         name: 'Olga'
+//     }
+// ]
+
 const singleDesigner = () =>{
     return (
         <>
@@ -113,45 +127,7 @@ const singleDesigner = () =>{
             {/* FORM */}
 
 
-            <div className={cls.work_banner}>
-                <div className={cls.work_padding}>
-                    <div className={cls.work_title}>
-                        <h2>Оставить заявку на партнёрство</h2>
-                    </div>
-
-                    <div className={cls.form_block_center}>
-                        <div className={cls.form_block_inline}>
-                            <div className={cls.form_left_block}>
-                                <form className={cls.form_partner}>
-                                    <div>
-                                        <input type="text" placeholder="Телефон"/>
-                                    </div>
-                                    <div>
-                                        <input type="text" placeholder="Комментарий"/>
-                                        <img src={Clip}/>
-                                    </div>
-                                </form>
-                            </div>
-                            <div className={cls.form_right_block}>
-                            <form className={cls.form_partner}>
-                                    <div>
-                                        <input type="text" placeholder="Телефон"/>
-                                    </div>
-                                    <div>
-                                        <select>
-                                             <option>Сфера деятельности</option>
-                                        </select>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={cls.form_button}>
-                        <button>Отправить</button>
-                    </div>
-                </div>
-            </div>
+            <PartnerForm/>
         </>
     )
 
