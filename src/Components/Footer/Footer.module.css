@@ -128,7 +128,6 @@ hr{
 
 /* Media */
 @media  (max-width:1446px) and (max-height:760px) {
-    
 .footer_inline ul p{
     color: white;
     font-size: 15px;
@@ -161,7 +160,8 @@ hr{
     color: white;
     font-size: 22px;
     margin: 0 15px;
-}.footer_input_inline button{
+}
+.footer_input_inline button{
     background: none;
     outline: 0;
     cursor: pointer;
@@ -259,7 +259,6 @@ hr{
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
     .footer_last_inline{
         display: inline-flex;
         padding: 10px 0;

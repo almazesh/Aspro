@@ -110,6 +110,9 @@
 .cards_inline div{
     margin: 20px 28px;
 }
+.cards_inline a{
+    transform: translateY(-9px);
+}
 
 .card{
     text-align: center;
@@ -467,6 +470,14 @@ form div img{
     width: 100%;
     }
 
+    .cards_inline h1{
+        font-family: 'RF Tone';
+        font-weight: 400;
+        text-align: center;
+        width: 100%;
+        font-size:17px ;
+    }
+
 
     
 
@@ -652,6 +663,24 @@ form div img{
     }
     
 }
+
+
+
+
+
+
+
+
+@media (max-width:1338px) {
+    .cards_inline div{
+        margin: 20px 20px;
+    }          
+    .cards_inline{
+        width: 102%;
+    }
+}
+
+
 
 
 

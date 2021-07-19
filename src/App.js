@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Blog from './Pages/Blog';
 import Bucket from './Pages/Bucket';
 import Katalog from './Pages/Catalog/index';
-import singleCatalog from './Pages/Catalog/SingleCatalog';
+import SingleCatalog from './Pages/Catalog/SingleCatalog';
 import singleProd from './Pages/Catalog/SingleCatalog/SingleProduct';
 import Company from './Pages/Company';
 import Contact from './Pages/Contacts';
@@ -26,13 +26,13 @@ function App() {
           <Navbar/>
             <Switch>
                 <Route path="/" exact component={Main}/>
-                <Route path="/catalog" component={Katalog} />
+                <Route path="/catalog" exact  component={Katalog} />
+                <Route path="/singleCatalog/:id" component={SingleCatalog} />
                 <Route path="/solution" component={Solution}/>
                 <Route path="/project" component={Project}/>
                 <Route path="/partner" component={Partner}/>
                 <Route path='/bucket' component={Bucket}/>
                 <Route path="/contact" component={Contact}/>
-                <Route path="/singleCatalog" component={singleCatalog}/> 
                 <Route path="/singleProject" component={singleProject}/>
                 <Route path="/single-solve" component={singleSolve}/>
                 <Route path="/single-product" component={singleProd}/>

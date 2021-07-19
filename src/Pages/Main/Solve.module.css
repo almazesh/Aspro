@@ -186,6 +186,35 @@
 }
 
 
+
+
+
+
+
+@media  (max-width:1330px) {
+    .solve_card img{
+        width: 255px !important;
+        height:305px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:684px){
     .solve_inline{
         display: flex;

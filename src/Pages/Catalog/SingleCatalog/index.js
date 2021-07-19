@@ -4,14 +4,31 @@ import Ring from '../../../assets/lights/ring.jpg'
 import Circle from '../../../assets/lights/Circle.jpg'
 import ManyUgol from '../../../assets/lights/Many.jpg'
 import X from '../../../assets/lights/X.jpg'
-import {Link} from 'react-router-dom'
+import {Link, useParams} from 'react-router-dom'
 import Clip from '../../../assets/Solve/paperclip.png'
-const singleCatalog = () =>{
+import { useEffect , useState } from 'react';
+import Loader from '../../../Components/Loader';
+
+const SingleCatalog = () =>{
+    const [category , setCategory] = useState(null)
+    const { id } = useParams()
+
+    useEffect(() =>{
+        fetch(`http://217.25.90.3/api/category/${id}`)
+        .then(res => res.json())
+        .then(r =>{
+            setCategory(r)
+        })
+    }, [setCategory])
+
     return (
         <>
             <div className={cls.catalog_title}>
                 <p className={cls.title}>Квадратные светильники</p>
-                <p className={cls.square}>Каталог светильников {'>'} Квадратные светильники</p>
+                {
+                    category?.name && <p className={cls.square}>Каталог светильников {'>'} {category.name}</p>
+                }
+                
             </div>
             <div className={cls.catalog_banner}>
                 <div className={cls.catalog_select_inline}>
@@ -40,73 +57,24 @@ const singleCatalog = () =>{
 
             <div className={cls.cards_parent}>
                 <div className={cls.cards_inline}>
-                    <Link to="/single-product">
-                        <div className={cls.card}>
-                            <img src={Linear}/>
-                            <div className={cls.card_title}>
-                                <p>
-                                aspro prymou
-                                </p>
-                            </div>
-                        </div>
-                    </Link>
-                    <div className={cls.card}>
-                        <img src={Ring}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                aspro ringo
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={Circle}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                aspro ellipse
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={ManyUgol}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                aspro fellipse
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={X}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                aspro figgro
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={Circle}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                aspro ellipse
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={ManyUgol}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                aspro fellipse
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={X}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                aspro figgro
-                            </p>
-                        </div>
-                    </div>
-                    
+                     {
+                        category ? (
+                                <Link to="/single-product">
+                                    <div className={cls.card}>
+                                        <img src={Linear}/>
+                                        <div className={cls.card_title}>
+                                            <p>
+                                                {category.name}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </Link>
+                        ) : (category === null) ? (
+                            <h1><Loader/></h1>
+                        ) : (
+                            <h1>Данные отсутствуют</h1>
+                        )
+                     }
                 </div>
            </div>
 
@@ -168,4 +136,4 @@ const singleCatalog = () =>{
 }
 
 
-export default singleCatalog; 
+export default SingleCatalog; 

@@ -6,7 +6,17 @@ import ManyUgol from '../../assets/lights/Many.jpg'
 import X from '../../assets/lights/X.jpg'
 import Form from '../../Components/form/form';
 import {Link} from 'react-router-dom'
+import { useEffect, useState } from 'react';
+import Loader from '../../Components/Loader';
 const Katalog = () =>{
+    const [category , setCategory] = useState(null)
+    useEffect(() =>{
+        fetch('http://217.25.90.3/api/category/')
+        .then(res => res.json())
+        .then(r => {
+            setCategory(r)
+        } , [setCategory])
+    })
     return (
         <>
             <div className={cls.catalog_title}>
@@ -39,74 +49,27 @@ const Katalog = () =>{
 
             <div className={cls.cards_parent}>
                 <div className={cls.cards_inline}>
-                    <Link to="/singleCatalog" >
-                        <div className={cls.card}>
-                            <img src={Linear}/>
-                            
-                            <div className={cls.card_title}>
-                                <p>
-                                    Прямоугольные <br /> светильники
-                                </p>
-                            </div>
-                        </div>
-                    </Link>
-                    <div className={cls.card}>
-                        <img src={Ring}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                Кольцевые <br /> светильники
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={Circle}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                Круглые <br /> светильники
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={ManyUgol}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                Многоугольные <br /> светильники
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={X}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                Фигурные <br /> светильники
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={Circle}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                Круглые <br /> светильники
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={ManyUgol}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                Многоугольные <br /> светильники
-                            </p>
-                        </div>
-                    </div>
-                    <div className={cls.card}>
-                        <img src={X}/>
-                        <div className={cls.card_title}>
-                            <p>
-                                Фигурные <br /> светильники
-                            </p>
-                        </div>
-                    </div>
-                    
+                    {
+                        (category && category?.results.length !== 0) ? (
+                            category?.results.map(item =>(
+                                <Link to={`/singleCatalog/${item.id}`} >
+                                    <div className={cls.card}>
+                                        <img src={Linear}/>
+                                        
+                                        <div className={cls.card_title}>
+                                            <p>
+                                                {item.name}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </Link>
+                            ))
+                        ) : (category === null) ? (
+                            <Loader />
+                        ) : (
+                            <h1>Данные отсутствуют</h1>
+                        )
+                    }                    
                 </div>
            </div>
 

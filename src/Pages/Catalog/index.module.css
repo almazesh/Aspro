@@ -10,6 +10,16 @@
     font-size: 52px;
     font-weight: 400;
 }
+.cards_inline a{
+    transform: translateY(-9px);
+}
+
+.cards_inline h1{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
 
 .catalog_select_inline{
     display: flex;

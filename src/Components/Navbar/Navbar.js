@@ -49,7 +49,7 @@ const Navbar = () =>{
                                     })}
                                 </div>
                             </div>
-                            <div>
+                            {/* <div>
                                   <div className='side_list'>
                                         {NavList.map((item , index) =>{
                                             return (
@@ -63,7 +63,7 @@ const Navbar = () =>{
                                             )
                                         })}
                                   </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='get_price'>
                             <h1>Получить прайс на почту</h1>
@@ -106,7 +106,7 @@ const Navbar = () =>{
                         </ul>
                         <ul className='navbar_logo_item'>
                              <li >
-                                Профессиональные световые решения.
+                                Профессиональные световые решения
                             </li>
                         </ul>
                         <ul className='navbar_list'>

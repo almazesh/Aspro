@@ -48,6 +48,14 @@
     align-items: flex-start;
 }
 
+.project_inline_card h1{
+    font-size: 52px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center  ;
+    
+}
+
 .card img{
     width: 420px;
     height: 400px;
@@ -95,6 +103,13 @@
         margin: auto;
         margin-top: 90px;
     
+    }
+    .project_inline_card h1{
+        font-size: 17px;
+        font-weight: 400;
+        width: 100%;
+        text-align: center  ;
+        
     }
     
     .project_banner_card{
